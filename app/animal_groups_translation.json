@@ -1,0 +1,104 @@
+{
+    "Livestock": {
+        "th": "กลุ่มปศุสัตว์/สัตว์เศรษฐกิจ",
+        "members": [
+            "Cattle",
+            "Sheep",
+            "Pig",
+            "Goat",
+            "Donkey",
+            "Horse",
+            "Mammal"
+        ],
+        "members_th": [
+            "วัว/โค",
+            "แกะ",
+            "หมู/สุกร",
+            "แพะ",
+            "ลา",
+            "ม้า",
+            "สัตว์เลี้ยงลูกด้วยนมขนาดใหญ่"
+        ]
+    },
+    "Pets": {
+        "th": "กลุ่มสัตว์เลี้ยง",
+        "members": [
+            "Dog",
+            "Cat",
+            "Hamster",
+            "Rabbit"
+        ],
+        "members_th": [
+            "สุนัข",
+            "แมว",
+            "แฮมสเตอร์",
+            "กระต่าย"
+        ]
+    },
+    "Poultry_Birds": {
+        "th": "กลุ่มสัตว์ปีก",
+        "members": [
+            "Poultry",
+            "Other birds"
+        ],
+        "members_th": [
+            "สัตว์ปีกฟาร์ม",
+            "นกชนิดอื่นๆ"
+        ]
+    },
+    "Wild_Large": {
+        "th": "กลุ่มสัตว์ป่ากินพืชขนาดใหญ่",
+        "members": [
+            "Elephant",
+            "Deer",
+            "Wapiti",
+            "Elk",
+            "Mule deer",
+            "Black-tailed deer",
+            "White-tailed deer",
+            "Sika deer",
+            "Reindeer",
+            "Moos"
+        ],
+        "members_th": [
+            "ช้าง",
+            "กวาง",
+            "กวางวาปิติ",
+            "กวางเอลก์",
+            "กวางมิวล์",
+            "กวางหางดำ",
+            "กวางหางขาว",
+            "กวางซิก้า",
+            "กวางเรนเดียร์",
+            "กวางมูส"
+        ]
+    },
+    "Wild_Carnivore": {
+        "th": "กลุ่มสัตว์ป่ากินเนื้อและลิง",
+        "members": [
+            "Wild_cat",
+            "Fox",
+            "Wolves",
+            "Hyaenas",
+            "Monkey"
+        ],
+        "members_th": [
+            "แมวป่า",
+            "สุนัขจิ้งจอก",
+            "หมาป่า",
+            "ไฮยีน่า",
+            "ลิง"
+        ]
+    },
+    "Reptile_Other": {
+        "th": "กลุ่มสัตว์เลื้อยคลานและอื่นๆ",
+        "members": [
+            "Turtle",
+            "Snake"
+        ],
+        "members_th": [
+            "เต่า",
+            "งู"
+        ]
+    }
+}
