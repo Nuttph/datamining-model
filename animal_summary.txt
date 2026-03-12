@@ -1,0 +1,41 @@
+📊 สรุปรายชื่อสัตว์และจำนวนที่พบใน Dataset
+========================================
+จำนวนแถวทั้งหมด: 1278 แถว
+จำนวนชนิดสัตว์ทั้งหมด: 31 ชนิด
+----------------------------------------
+
+AnimalName
+Synthetic_Animal     439
+Poultry              169
+Cattle               153
+Sheep                109
+Pig                   66
+Elephant              59
+Cat                   36
+Dog                   35
+Donkey                34
+Goat                  28
+Monkey                28
+Deer                  26
+Wild_cat              22
+Hamster               18
+Horse                 15
+Rabbit                11
+Fox                    8
+Other birds            6
+Turtle                 4
+Mammal                 1
+Snake                  1
+Wapiti                 1
+Elk                    1
+Mule deer              1
+Black-tailed deer      1
+White-tailed deer      1
+Sika deer              1
+Reindeer               1
+Moos                   1
+Wolves                 1
+Hyaenas                1
+
+========================================
+จบร้อยงาน
