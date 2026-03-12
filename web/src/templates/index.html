@@ -3,62 +3,87 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Animal Risk AI</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Risk AI | ระบบพยากรณ์ความเสี่ยง</title>
+    <!-- Favicon would go here -->
+    
+    <!-- Select2 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 
-<body class="bg-light">
+<body>
+    <div class="container">
+        <div class="main-card">
+            <!-- simplified header card with subtitle -->
+            <h1>🐾 Animal Risk AI</h1>
+            <p class="subtitle">ระบบวินิจฉัยความเสี่ยงสุขภาพสัตว์ด้วยปัญญาประดิษฐ์</p>
 
-    <div class="container py-5">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="card shadow-sm">
-                    <div class="card-header bg-primary text-white">
-                        <h4 class="mb-0">🤖 วินิจฉัยความเสี่ยงสุขภาพสัตว์</h4>
+            <form id="riskForm">
+                <div class="mb-4">
+                    <label class="form-label">
+                        <span class="step-num">1</span>
+                        เลือกชนิดสัตว์
+                    </label>
+                    <select id="animalGroup" class="form-select search-select" required>
+                        <option value="">--- ค้นหาหรือเลือกชนิดสัตว์ ---</option>
+                        {% for group_key, group_val in animal_data.items() %}
+                        <optgroup label="{{ group_val.th }}">
+                            {% for species in group_val.members_th %}
+                            <option value="{{ species }}">{{ species }}</option>
+                            {% endfor %}
+                        </optgroup>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="mb-4" style="margin-top: 2rem;">
+                    <label class="form-label">
+                        <span class="step-num">2</span>
+                        ระบุอาการที่พบ
+                    </label>
+                    <select id="symptoms" class="form-select search-select" multiple="multiple">
+                        {% for key, val in symptom_data.items() %}
+                        <option value="{{ key }}">{{ val }} ({{ key }})</option>
+                        {% endfor %}
+                    </select>
+                    <div class="common-chips">
+                        <div class="chip" data-val="fever">ไข้ (fever)</div>
+                        <div class="chip" data-val="diarrhea">ท้องเสีย (diarrhea)</div>
+                        <div class="chip" data-val="vomiting">อาเจียน (vomiting)</div>
+                        <div class="chip" data-val="lethargy">ซึมเหนื่อย (lethargy)</div>
+                        <div class="chip" data-val="anorexia">เบื่ออาหาร (anorexia)</div>
                     </div>
-                    <div class="card-body">
-                        <form id="riskForm">
-                            <div class="mb-4">
-                                <label class="form-label fw-bold">1. เลือกชนิดสัตว์</label>
-                                <select id="animalGroup" class="form-select search-select" required>
-                                    <option value="">--- ค้นหาหรือเลือกชนิดสัตว์ ---</option>
-                                    {% for group_key, group_val in animal_data.items() %}
-                                    <optgroup label="{{ group_val.th }}">
-                                        {% for species in group_val.members_th %}
-                                        <option value="{{ species }}">{{ species }}</option>
-                                        {% endfor %}
-                                    </optgroup>
-                                    {% endfor %}
-                                </select>
-                            </div>
-
-                            <div class="mb-4">
-                                <label class="form-label fw-bold">2. ระบุอาการ (เลือกได้หลายอย่างและค้นหาได้)</label>
-                                <select id="symptoms" class="form-select search-select" multiple="multiple">
-                                    {% for key, val in symptom_data.items() %}
-                                    <option value="{{ key }}">{{ val }} ({{ key }})</option>
-                                    {% endfor %}
-                                </select>
-                                <div class="form-text">สามารถพิมพ์ค้นหาอาการเป็นภาษาอังกฤษได้</div>
-                            </div>
-
-                            <button type="submit" class="btn btn-success w-100 py-2">วิเคราะห์ความเสี่ยง</button>
-                        </form>
-
-                        <div id="resultArea" class="mt-4 text-center d-none">
-                            <hr>
-                            <h5>ระดับความเสี่ยง</h5>
-                            <div id="riskGauge" class="display-3 fw-bold">0%</div>
-                            <p id="riskText" class="mt-2"></p>
-                        </div>
+                    <div class="hint-text">
+                        💡 ทิป: คุณสามารถเลือกหลายอาการเพื่อการทำนายที่แม่นยำขึ้น
                     </div>
+                </div>
+
+                <button type="submit" class="btn-predict" id="submitBtn">
+                    🔮 เริ่มการทำนายความเสี่ยง
+                </button>
+            </form>
+
+            <div id="resultArea" style="display: none;">
+                <div class="gauge-container">
+                    <svg class="gauge" viewBox="0 0 120 120">
+                        <circle class="gauge-bg" cx="60" cy="60" r="54"></circle>
+                        <circle class="gauge-fill" cx="60" cy="60" r="54"></circle>
+                    </svg>
+                    <div class="gauge-value" id="riskGauge">0%</div>
+                </div>
+                <div id="riskText" class="risk-text">กำลังประมวลผล...</div>
+                <div class="sub-info" id="analysisDetails"></div>
+
+                <div class="disclaimer">
+                    * ผลลัพธ์นี้เป็นเพียงการวินิจฉัยเบื้องต้นโดย AI โปรดปรึกษาสัตวแพทย์หากสัตว์มีอาการรุนแรง
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
