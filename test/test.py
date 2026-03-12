@@ -46,14 +46,14 @@ def predict_real_case(animal_group, symptoms_list):
 # ---------------------------------------------------------
 
 # เคสที่ 1: สัตว์ปศุสัตว์ (Livestock) มีอาการท้องเสีย
-risk_livestock = predict_real_case('Livestock', ['fever'])
+risk_livestock = predict_real_case('Livestock', ['sneezing'])
 
 # เคสที่ 2: สัตว์ป่าขนาดใหญ่ (Wild_Large) มีอาการท้องเสีย
-risk_wild = predict_real_case('Wild_Large', ['fever'])
+risk_wild = predict_real_case('Wild_Large', ['sneezing'])
 
 print("🔍 --- ผลการทดสอบการทำนายจริง ---")
-print(f"🐄 กลุ่ม Livestock  (อาการ: fever): ความเสี่ยง {risk_livestock:.2f}%")
-print(f"🐘 กลุ่ม Wild_Large (อาการ: fever): ความเสี่ยง {risk_wild:.2f}%")
+print(f"🐄 กลุ่ม Livestock  (อาการ: sneezing): ความเสี่ยง {risk_livestock:.2f}%")
+print(f"🐘 กลุ่ม Wild_Large (อาการ: sneezing): ความเสี่ยง {risk_wild:.2f}%")
 
 # วิเคราะห์ผล
 diff = abs(risk_livestock - risk_wild)
@@ -62,3 +62,23 @@ if diff > 0:
     print(f"\n💡 วิเคราะห์: โมเดลมองว่ากลุ่ม {winner} มีความเปราะบางต่ออาการนี้มากกว่า ({diff:.2f}%)")
 else:
     print("\n💡 วิเคราะห์: โมเดลมองว่าอาการนี้อันตรายเท่ากันในทั้งสองกลุ่ม")
+
+results_scan = []
+# เช็คทุกอาการในโมเดล
+symptom_cols = [col for col in feature_columns if not col.startswith('Group_')]
+
+for sym in symptom_cols:
+    # ทดสอบกับกลุ่ม Livestock ที่เดิมคือ 95%
+    test_case = pd.DataFrame(0, index=[0], columns=feature_columns)
+    test_case['Group_Livestock'] = 1
+    test_case[sym] = 1
+    
+    prob = model.predict_proba(test_case)[0][1]
+    results_scan.append({'name': sym, 'risk': prob})
+
+# เรียงจากเสี่ยงน้อยไปมาก
+sorted_safe = sorted(results_scan, key=lambda x: x['risk'])
+
+print("🔍 --- 5 อาการที่เสี่ยงน้อยที่สุดในโมเดลคุณ ---")
+for item in sorted_safe[:]:
+    print(f"อาการ: {item['name']} -> เสี่ยง {item['risk']*100:.2f}%")

@@ -21,11 +21,15 @@
                     <div class="card-body">
                         <form id="riskForm">
                             <div class="mb-4">
-                                <label class="form-label fw-bold">1. เลือกกลุ่มสัตว์</label>
+                                <label class="form-label fw-bold">1. เลือกชนิดสัตว์</label>
                                 <select id="animalGroup" class="form-select search-select" required>
-                                    <option value="">--- ค้นหาหรือเลือกกลุ่มสัตว์ ---</option>
-                                    {% for key, val in animal_data.items() %}
-                                    <option value="{{ key }}">{{ val.th }}</option>
+                                    <option value="">--- ค้นหาหรือเลือกชนิดสัตว์ ---</option>
+                                    {% for group_key, group_val in animal_data.items() %}
+                                    <optgroup label="{{ group_val.th }}">
+                                        {% for species in group_val.members_th %}
+                                        <option value="{{ species }}">{{ species }}</option>
+                                        {% endfor %}
+                                    </optgroup>
                                     {% endfor %}
                                 </select>
                             </div>
