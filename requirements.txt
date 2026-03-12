@@ -1,0 +1,16 @@
+numpy
+pandas
+pyspellchecker
+transformers
+torch
+scikit-learn
+imbalanced-learn
+optuna
+lightgbm
+xgboost
+matplotlib
+seaborn
+tensorflow
+joblib
+ipywidgets
+python-dotenv
