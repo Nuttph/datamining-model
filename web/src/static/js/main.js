@@ -8,11 +8,11 @@ $(document).ready(function () {
     });
 
     // Handle Quick Symptom Chips
-    $('.chip').on('click', function() {
+    $('.chip').on('click', function () {
         const val = $(this).data('val');
         const $select = $('#symptoms');
         let currentVals = $select.val() || [];
-        
+
         if (currentVals.includes(val)) {
             currentVals = currentVals.filter(v => v !== val);
             $(this).removeClass('active');
@@ -20,14 +20,14 @@ $(document).ready(function () {
             currentVals.push(val);
             $(this).addClass('active');
         }
-        
+
         $select.val(currentVals).trigger('change');
     });
 
     // Sync chips if Select2 changes manually
-    $('#symptoms').on('change', function() {
+    $('#symptoms').on('change', function () {
         const currentVals = $(this).val() || [];
-        $('.chip').each(function() {
+        $('.chip').each(function () {
             const val = $(this).data('val');
             if (currentVals.includes(val)) {
                 $(this).addClass('active');
@@ -66,7 +66,7 @@ $(document).ready(function () {
         const $circle = $('.gauge-fill');
         const radius = $circle.attr('r');
         const circumference = 2 * Math.PI * radius;
-        
+
         $circle.css({
             'stroke-dasharray': circumference,
             'stroke': color
@@ -90,7 +90,7 @@ $(document).ready(function () {
         }
 
         $btn.addClass('loading-pulse').prop('disabled', true).text('⏳ กำลังประมวลผล...');
-        
+
         // Don't fade out if already visible, just smooth transition
         const isFirstTime = $resultArea.is(':hidden');
         if (isFirstTime) {
@@ -105,10 +105,10 @@ $(document).ready(function () {
             success: function (response) {
                 const score = response.risk_score;
                 const symptomsCount = response.symptoms_analyzed;
-                
+
                 let color = '#10b981'; // Green
                 let statusText = '✅ ความเสี่ยงต่ำ (Normal)';
-                
+
                 if (score >= 75) {
                     color = '#ef4444'; // Red
                     statusText = '🚨 วิกฤต (Critical Risk)';
@@ -122,18 +122,17 @@ $(document).ready(function () {
                         $resultArea.fadeIn(500);
                         lastScore = 0;
                     }
-                    
+
                     animateScore(score);
                     $('#riskText').text(statusText).css('color', color);
                     $('#analysisDetails').html(`
                         วิเคราะห์ข้อมูลแล้ว ${symptomsCount} อาการ<br>
-                        (Base AI Score: ${response.base_model_score}%)
                     `);
 
                     updateGauge(score, color);
-                    
+
                     $btn.removeClass('loading-pulse').prop('disabled', false).text('🔮 เริ่มการทำนายความเสี่ยง');
-                    
+
                     if (isFirstTime && $(window).width() < 768) {
                         $('html, body').animate({
                             scrollTop: $resultArea.offset().top - 50
