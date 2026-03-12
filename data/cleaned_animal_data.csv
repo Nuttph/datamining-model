@@ -1,0 +1,842 @@
+﻿AnimalName,symptoms1,symptoms2,symptoms3,symptoms4,symptoms5,Dangerous
+Dog,fever,diarrhea,vomiting,weight loss,dehydration,Yes
+Dog,fever,diarrhea,coughing,tiredness,pains,Yes
+Dog,fever,diarrhea,coughing,vomiting,anorexia,Yes
+Dog,fever,difficulty breathing,coughing,lethargy,sneezing,Yes
+Dog,fever,diarrhea,coughing,lethargy,blue eye,Yes
+Dog,fever,respiratory distress,seizures,hyperesthesia,sudden death,Yes
+Dog,ulcers,diarrhea,poor appetite,tarry stool,enlarged lymph nodes,Yes
+Dog,facial swelling,bloody drool,foul breath,unable to eat,lossened teeth,Yes
+Dog,fever,difficulty breathing,thrist and urination,weight loss,enlarged lymph nodes or swelling,Yes
+Dog,swelling on leg,painfull,nasal discharge,broken bones,nasal discharge,Yes
+Dog,short term lethargy,loss of  appetite,weekness in the back legs,rapid heart rate,week pulse,Yes
+Dog,swollen lymph nodes,difficulty walking,back pain,lethargy,vaginal discharge,Yes
+Dog,fever,diarrhea,abdominal pain,stiffness,severe weekness and depression,Yes
+Dog,fever,loss of  appetite,reduce energy,lameness,swelling of joints,Yes
+Dog,fever,chronic eye inflamation,poor appetite,lethargy,neurologic abnormalities,Yes
+Dog,fever,swelling of face or leg,poor appetite,depression,pains,Yes
+Dog,diarrhea with muscus,tensemus,watery stool,flatulence,pains,Yes
+Dog,strong cough,runny nose,sneezing,lethargy,loss of appettite,Yes
+Dog,fever,inflammed eye,coughing,depression,limping,Yes
+Dog,fever,difficulty breathing,coughing,eye and skin change,unable to exercise,Yes
+Dog,fever,loss of  appetite,coughing,lethargy,joint pain,Yes
+Dog,lesions in the nasal cavity,lesions on nose,nose bleeds,noisy breathing,lesions on nose,Yes
+Dog,hair loss,dandruff,darkened skin,crusting of the skin,ulcerated skin,Yes
+Dog,greenish-yellow nasal discharge,lack of pigmentation,sneezing,lethargy,pain on face,Yes
+Dog,fever,diarrhea,poor appetite,weight loss,vomitting,Yes
+Dog,jaundice,pneumonia,lession on the skin,pain,vomitting,Yes
+Dog,poor coat apperence,diarrhea,vomiting,weight loss,dehydration,Yes
+Dog,watering,no appp,vomiting,lethargy,dehydration,Yes
+Dog,straining,diarrhea,vomiting,weight loss,blindness,Yes
+Dog,upset stomach,diarrhea,vomiting,muscle pain,muscle stiffness,Yes
+Dog,upset stomach,diarrhea,coughing,weight loss,anaemia,Yes
+Dog,allergic reaction,poor appetite,coughing,weight loss,distended chest,Yes
+Dog,fever,anorexia,weight loss,lethargy,pain,Yes
+Dog,limping,willnot run to jump,swelling,week legs,pain on leg,Yes
+Cat,fever,eye ulcer,congestion,depression,pink eye,Yes
+Cat,pneumonia,loss of  appetite,eye disharge,lameness,arthritis,Yes
+Cat,fever,seizures,hydrophobia,jaw is dropped,shyness or aggression,Yes
+Cat,bloody urine,diffculty breathing,vomiting,weight loss,anorexia,Yes
+Cat,loss of eat,difficulty in breathing,swelling,lameness,neurologic abnormalities,Yes
+Cat,dark or black face,diarrhea,vomiting,blood in faces,pain,Yes
+Cat,jaundice,difficulty in breathing,seizures,lethargy,pale gums,Yes
+Cat,appetite varies,diarrhea,vomiting,weight loss,pain,Yes
+Cat,loss of eat,fell unwell,lethargy,weight loss,skin issue,Yes
+Cat,sickness,loss of  appetite,vomiting,weight loss,raised growth or bump,Yes
+Cat,nasal bleeding,diffulty chewing,swelling,weight loss,anorexia,Yes
+Cat,ulcers,lesions,scabs,lumps,"bumps(black,grey or red)",Yes
+Cat,gasc,loss of  appetite,blood in stool,stomach growling,black stool,Yes
+Cat,shaking head,scartching ear,black on ear,bad smell,red and inflammation ear,Yes
+Cat,attacks,loss of  appetite,coughing,weight loss,periodic vommiting,Yes
+Cat,blood stool,diarrhea,coughing,weight loss,anemia,Yes
+Cat,nasal discharge,nosebleeds,inflamed nostrils,sneezing,lound breathing,Yes
+Cat,polyuria,loss of  appetite,vomiting,weight loss,polydipsa,Yes
+Cat,exessive urination,change in gait,vomiting,weight loss,inability to jump,Yes
+Cat,convulsion,loss of consciousness,chewing,twitching,salivating,Yes
+Cat,wheezing,rapid breathing,coughing,swallowing,effort to breath,Yes
+Cat,jaundice,weakness,lethargy,weight loss,anorexia,Yes
+Cat,lession on cat skin,dandruff in cat coat,red patches,hair loss,skin issue,Yes
+Cat,lethargy,diarrhea,vomiting,discharge from eye,anorexia,Yes
+Cat,skin irritation,scartching,lethargy,hair loss,excessive grooming,Yes
+Cat,floopy muscle,speech delay,intellectual disability,walking problem,eye movements,Yes
+Cat,sensitivity to bright light,disharge from affected eye,inflammation,clouded cornea,rubbing eye,Yes
+Cat,fever,diarrhea,vomiting,cramps,dehydration,Yes
+Cat,tenderness,erythema,swelling,scartch,pain,Yes
+Cat,fever,diarrhea,vomiting,salivation,decrease appetite,Yes
+Cat,scaly patches of skin,sore,scabs,scartch,hair loss,Yes
+Cat,fatty stool,diarrhea,vomiting,weight loss,pain,Yes
+Cat,nausea,loss of appetite,vomiting,firm,distended stomach,Yes
+Cat,fever,swelling  in the bite area,lethargy,limp,pain,Yes
+Cat,fever,loss of appetite,eyeproblem,liver disease,nuerological,Yes
+Cat,fever,mild sneezing,coughing,nasal,ocular discharge,Yes
+Rabbit,most often none,sneezing,nasal discharge,dyspnea,pain,Yes
+Rabbit,fever,diarrhea,vomiting,blood from mouth,shock,Yes
+Rabbit,discomfort,diarrhea,dry or dull hair,grinding teeth,pain,Yes
+Rabbit,loss of appetite,swelling,nasal discharge,blindness,lethargy,Yes
+Rabbit,rhinitis,pneumonia,abscessess,torticollis,septicemia,Yes
+Rabbit,fever,diarrhea,enteritis,weight loss,stomach  cramps,Yes
+Rabbit,immediate death,difficulty in breathing,blue colored lip,bloody discharge,neurologic abnormalities,Yes
+Rabbit,fever,pox lession on skin,skin reashes,nasal discharge,mortality varies,Yes
+Rabbit,red on affected area,horny growth,wart-like growth,red skin,lesions on ear,Yes
+Rabbit,fever,chills,skin ulcer,exhaustion,swollen and painfull,Yes
+Rabbit,watering diarrhea,depression,emaciation,ruffled coat,lethargy,Yes
+Cattle,loss in weight,emaciation,loss of appetite,weakness,diarrhea,Yes
+Poultry,loss of appetite,diarrhea,swollen purple wattle,swollen comb,lameness,Yes
+Poultry,loss of appetite,diarrhea,ruffled feathers,weight loss,inability to absorb nutrients,Yes
+Poultry,egg production decreases,stunted growth,blindness,distinctive bumps,facial swelling,Yes
+Poultry,loss of appetite,thirst,ruffled feathers,closed eyes,diarrhea,Yes
+Cattle,fever,weakened legs,los of the ability to walk,mammary glads,fluif filled blisters,Yes
+Cattle,fever,weakened legs,los of the ability to walk,weight loss,lameness,Yes
+Cattle,abortion at the end of gestation,fatigue,weak calves,join pains,swelling of internal organs,Yes
+Mammal,swollen,red-colored,hot udder,milk getting out more watery,milk getting out more thick,Yes
+Cattle,fever,distress,trembling,staggering,convulsion,Yes
+Cattle,fever,animal become lame,prostrat,painfull swalling,lameness,Yes
+Cattle,fever,difficulty in breathing,dribbling of saliva,inability of swalllon feeding,moist and painfull,Yes
+Cattle,fluif faeces on blood and muscle,sudden death,blooody fluid,red diarrhea,faeces are streake with blood,Yes
+Cattle,fever,pneumonia,stand with head droping,weight loss,abnormal behaviour,Yes
+Cattle,fever,slightly swollen,lession on the skin,milky hard,papules appear on teats anad udder,Yes
+Cattle,fever,dull,hind quarted soil,animal stop feed,decrease in milk production,Yes
+Cattle,severe,diarrhea,blood on faces,appetite,milk reduce,Yes
+Cattle,fever,depression,relunctance to move,salivation,nasal discharge,Yes
+Cattle,normal appetite,diarrhea,swelling may occur under jaw,weight loss,drop in milk production,Yes
+Cattle,swelling on leg,heat,hardness,redness,pain,Yes
+Cattle,inability to stand,diarrhea,bottle jaw,pot belly,dry hair coat,Yes
+Cattle,excitability,nervousness,loss of appetite,hyper sensitivity,weakness,Yes
+Cattle,fever,depression,attack,bite other animals,pain,Yes
+Cattle,fever,difficulty in breathing,coughing,painfull,eye become dull,Yes
+Cattle,fever,ulcer on gum,red eye,yellowish discharge,bloody diarrhea,Yes
+Cattle,fever,diarrhea,coughing,consistency of milk,pain,Yes
+Cattle,animal gets uneasy,difficulty in breathing,difficult in respiration,excessive production,stamping and pedding of hind eye,Yes
+Horse,fever,chills,severe colic,weakness,anorexia,Yes
+Horse,fever,body stiffness,lethargy,severe inflammation,pain,Yes
+Horse,sickness,diarrhea,weight loss,nausea,dehydration,Yes
+Horse,sudden death,trouble walking,paralysis,depression,convulsion,Yes
+Horse,fever,abortion,kidney failure,inflammation of eye,eye redness,Yes
+Horse,small red bumps,pneumonia,septic arthritis,skin infection,pain,Yes
+Horse,fever,ataxia,aggressiveness,depression,obscure lameness,Yes
+Horse,ring shaped lesion,round patches,dry skin,size of lesions vary,pain,Yes
+Horse,fever,diarrhea,loss of appetite,colic,weakness,Yes
+Horse,fever,depression,loss of appetite,stumbling,ataxia,Yes
+Turtle,bubbles in the mouth,wheezing,loss of appetite,lethargy,nasal discharge,Yes
+Turtle,changes in outer layer skin,swelling of eye,loss of appetite,lethargy,respiratory infection,Yes
+Turtle,red tinge,slim over the shell,bad smell,easily damage shell,flaking of the scutes,Yes
+Turtle,passing of undigested food,diarrhea,vomiting,gas or bloating,dehydration,Yes
+Hamster,smell,diarrhea,loss of appetite,excess sleeping,folded ears,Yes
+Hamster,loss of activity,rough coat,loss of appetite,weight loss,eventually death,Yes
+Hamster,fever,diarrhea,vomiting,dehydration,pain,Yes
+Hamster,bald patches,hair loss,crusty,flaky,red lesion from bald patches,Yes
+Hamster,poor condition,enlarged lymph nodes,diarrhea,weight loss,pain,Yes
+Hamster,fever,chills,coughing,progressive weakness,joint pain,Yes
+Hamster,heavy infection,diarrhea,vitamin and minerals defiency,weight loss,pain,Yes
+Wild_Cat,fever,diarrhea,muscle weakness,muscle pain,abdonormal discomfort,Yes
+Wild_Cat,fever,chills,headache,nausea,pain,Yes
+Wild_Cat,thicked skin,hair tining,hair loss,scabbing,itchiness,Yes
+Wild_Cat,facial edema,loss of earing,vomiting,head ache,throat and ear pain,Yes
+Wild_Cat,general malaise,hepatic failure,vomiting,weight loss,abdonormal pain,Yes
+Wild_Cat,upset stomach,loss of appetite,nause,weight loss,abdonormal pain,Yes
+Wild_Cat,fever,muscle loss,skeleten pain,weight loss,wasting,Yes
+Wild_Cat,oedema,swelling of face or leg,swelling of neck,weight loss,pain,Yes
+Wild_Cat,poor growth,short stature,enlargement of bones,lameness,weigth bearing long bones,Yes
+Wild_Cat,fever,chills,sweat,head ache,fatique,Yes
+Wild_Cat,fever,loss of appetite,weakness,weight loss,vomitting,Yes
+Wild_Cat,dullness,lacrimation,coughing,diarrhea,seizures,Yes
+Wild_Cat,vomiting,bloody diarrhea,lethargy,dehydration,anorexia,Yes
+Wild_Cat,fever,uncharacteristic hiding,depression,dehydration,stopped eat,Yes
+Wild_Cat,fever,poor coat condition,infection of the skin,weight loss,fatique,Yes
+Wild_Cat,weakness,stiffness,trembling,white mark on the muscle,loss of vitamin e,Yes
+Fox,partial paralysis,staggering as drunk,self mutilation,acting aggressive,acting unnaturally tame,Yes
+Fox,fever,tiredness,headache,skin rashes,pain,Yes
+Fox,thick crusting,itchiness,hair loss,watery eye,pain,Yes
+Fox,constant pacing,facial muscle twitching,abnormalalities,blindness,muscle pain,Yes
+Fox,loss od appetite,wheezing,seizures,skin rashes,fatique,Yes
+Fox,indigestion,abdminal pain,constipation,diarrhea,nausea,Yes
+Fox,blood in urine,diarrhea,vomiting,lethargy,bleeding in eye and skin,Yes
+Goat,fever,malaise,weakness,weight loss,pain,Yes
+Goat,fever,diarrhea,vomiting,stomach cramps,nausea,Yes
+Goat,fever,lack of coordination,depression,salivation,facial paralysis,Yes
+Goat,sores on lip,infection,sores on lower leg and teats,lesion,pain,Yes
+Goat,abortion on late pregancy,stillbirth,retained placenda,endomeritis,decrease appetite,Yes
+Goat,paresis,paralysis,weakness,stomach cramps,diarrhea,Yes
+Goat,fever,diarrhea,swelling,weight loss,pain,Yes
+Goat,fever,hemolytic anemia,hemoglobinuria,pulmonary congestion,jaundice,Yes
+Goat,abortion,mummification,stillbirth,weak kids,pain,Yes
+Goat,runny nose,difficulty in breathing,coughing,weakness,loss of appettite,Yes
+Goat,fever,nasal discharge,respiratory distress,pox lesion,pain,Yes
+Goat,fever,dark colored bloody,incoordination,difficulty in breathing,terminal convulsion,Yes
+Goat,fever,dysentery,swelling,immediate death,pain,Yes
+Goat,fever,respiratory distress,mucous discharge,reduce feed,weight gain,Yes
+Goat,decreased milk,holding limbs off the ground,weight loss,lameness,wool production,Yes
+Goat,swelling of udder,change in milk,swollen,tender to touch,pain,Yes
+Goat,fever,respiratory distress,occular discharge,mouth lesion,nasal discharge,Yes
+Goat,fever,wound lesion,excess salivary,difficult in walking,pain,Yes
+Goat,emaciation,edema in lower jaw,coughing,shivering,anemia,Yes
+Goat,fever,reduce growth,kid moratality,weakness,dullness,Yes
+Goat,fever,reduce growth,edema in lower jaw,weight loss,anemia,Yes
+Goat,emaciation,diarrhea,kid moratality,weakness,anemia,Yes
+Goat,skinallergy,reduce growth,wound,head ache,dizziness,Yes
+Goat,watering of eyes,redness of white of the eye,swelling of eyelid,cornea become cloudy,tear production,Yes
+Goat,berberi,wasting,nervous,weight loss,anorexia,Yes
+Goat,gastritis,morbidity,bloody,mortality,anemia,Yes
+Deer,fever,severe headache,vomiting,coughing,fatique,Yes
+Deer,fever,tiredness,swollen kidney,hematuria,muscle aches,Yes
+Deer,fever,diarrhea,decreased appetite,vomiting,bloody,Yes
+Deer,gas,diarrhea,abdominal discomfort,vomiting,nausea,Yes
+Deer,drooping ears,lack of coordination,drooling,wasting,listlessness,Yes
+Poultry,edema,diarrhea,nasal discharge,decresed egg production,sneezing,Yes
+Poultry,drooping wings,depression,nasal discharge,coughing,greenish diarrhea,No
+Poultry,weakness,yellow or green dropping,purplish combs,wattles,drop on egg production,No
+Poultry,neck paralysis,diarrhea,ruffled feathers,labored breathing,weakness,No
+Poultry,facial swelling,lacrimation,diarrhea,anorexia,nasal discharge,No
+Poultry,loss of appetite,depression,paralyzed leg,weight loss,anemia,No
+Poultry,dejection,loss of appetite,slow growth,diarrhea,lesion,No
+Poultry,severe swellimg,heavy breathing,diarrhea,weight loss,pain,No
+Poultry,weakness,diarrhea,high moratality,dehydration,anorexia,No
+Monkey,fever,hepatitis,skin rashes,weight loss,pain,No
+Monkey,sneezing,epistaxis,coughing,difficulty in breathing,nasal discharge,No
+Monkey,sneezing,unilateral nasal discharge,gagging,retching,weight loss,Yes
+Monkey,fever,depression,coughing,weight loss,anorexia,Yes
+Monkey,shallow breathing,halitosis,coughing,lethargy,nasal discharge,Yes
+Monkey,dyspnea,sneezing,coughing,difficulty in breathing,infection,Yes
+Monkey,dyspnea,sneezing,coughing,difficulty in breathing,pain,Yes
+Monkey,fever,rhinorrhea,coughing,sneezing,dehydration,Yes
+Monkey,fever,rhinorrhea,coughing,facial edema,dyspnea,Yes
+Monkey,fever,rhinorrhea,coughing,sneezing,nasal discharge,Yes
+Monkey,mortality,painfull,coughing,weight loss,nasal discharge,Yes
+Monkey,skin rashes,diarrhea,death,facial edema,pain,Yes
+Monkey,fever,dyspnea,coughing,lethargy,weightloss,Yes
+Monkey,fever,dyspnea,coughing,weakness,anorexia,Yes
+Monkey,facial edema,dyspnea,conjuctivtis,weakness,pharyngitis,Yes
+Monkey,fever,pneumonia,congestion,lethargy,nasal discharge,Yes
+Monkey,fever,death,coughing,weight loss,nasal discharge,Yes
+Monkey,sneezing,convulsion,seizures,weight loss,nasal discharge,Yes
+Monkey,fever,death,coughing,dyspnea,anorexia,Yes
+Monkey,dyspnea,difficulty in breathing,coughing,lethargy,nasal discharge,Yes
+Monkey,air sacculitis,halitosis,coughing,enteritis,weight loss,Yes
+Monkey,fever,convulsion,sudden death,urine retention,weight loss,Yes
+Monkey,dyspnea,neurologic sign,coughing,depression,anorexia,Yes
+Monkey,fever,dyspnea,coughing,lethargy,anorexia,Yes
+Monkey,labored breathing,dyspnea,coughing,depression,anorexia,Yes
+Monkey,blood from mouth,diarrhea,coughing,lethargy,weight loss,Yes
+Monkey,hemopytsis,diarrhea,asymptomatic,death,epistaxis,Yes
+Monkey,restlessness,weakness,blue straws,death,pain,Yes
+Poultry,stripped remiges,less feather growth,ruffled feathers,defienciency in vitamin,diarrhea,Yes
+Poultry,apathy,depression,dilation of duodenum,cloacal pasting,congestion,Yes
+Poultry,lepatomegaly,splenomegaly,vomiting,swollen,shaking oh head,Yes
+Poultry,balance problem,abdominal destention,neck paralysis,weight loss,pains,Yes
+Poultry,legness,paresis,coughing,weight loss,shortness of breath,Yes
+Poultry,fever,sour throat,mortality,muscle aches,abnormalities,Yes
+Poultry,difficulty in feeding,preening,weakness,beak overgrowth,anemia,Yes
+Poultry,fever,loss of appetite,ear infection,depression,nasal discharge,Yes
+Poultry,forthy eye,torticollis,weakness,swelling,emaciation,Yes
+Poultry,inappentence,diarrhea,tremors of the head,dehydration,weight loss,Yes
+Poultry,lack of walking,lack of flying,roughened,dehydration,pains,Yes
+Poultry,skin rashes,small and yellow bumps,swelling,dry scabs,lameness,Yes
+Poultry,scabs on feet,redness,trachea,thickening of skin,pains,Yes
+Poultry,enlarged thymus,obstructed lungs,lethargy,skin rashes,weight loss,Yes
+Poultry,fluffed feather,loss of appetite,coughing,vomiting,snoring,Yes
+Poultry,fever,difficultty in breathing,yellow eye,sneezing,diphtherictic,Yes
+Poultry,heavy breathing,yellow in beak,tail_bobbing,weakness,sleeping excessively,Yes
+Poultry,puffed_up feather,less eat,headache,half-closed eye,seizures,Yes
+Poultry,fever,diarrhea,swollen abdomen,vomiting,difficulty in breathing,Yes
+Poultry,tail wagging,straining,lethargy,weakness,diarrhea,Yes
+Poultry,overweight,loss of appetite,ruffled feathers,depression,diarrhea,Yes
+Poultry,dejection,loss of appetite,stress,coughing,pains,Yes
+Poultry,skin infection,secondary infection,coughing,depression,shaking oh head,Yes
+Poultry,discharge from eyes,lethargy,coughing,sneezing,fatique,Yes
+Poultry,fever,chills,retarded growth,chest pain,chest pain,Yes
+Poultry,pale comb,lame,death,swolling of joint,eye closed,Yes
+Poultry,lethargy,loss of appetite,difficulty in swallowing,weakness,vision problem,Yes
+Poultry,emaciation,difficulty in breathing,vomiting,weakness,diarrhea,Yes
+Poultry,liquid dropping,exhaustion,ataxia,lethargy,seizures,Yes
+Poultry,undigested in their feces,loss of appetite,loss of pigment,weakness,bloody in feather,Yes
+Poultry,sharp feather,clubbed feather,eye disharge,loss of powder down,diarrhea,Yes
+Poultry,ruffled appearance,loss of appetite,vomiting,green dropping,nasal discharge,Yes
+Poultry,sinuses,swollen eyelids,skin rashes,sneezing,misshapen beak,Yes
+Poultry,feather loss,feather plucking,coughing,itching,nasal discharge,Yes
+Poultry,watery eyes,eye closed,weight loss,sneezing,nervous issue,Yes
+Poultry,bony lesion,skin rashes,ataxia,anorexia,weakness,Yes
+Poultry,tremor of head and neck,blindness,kicking at the belly,exercise in tolerance,pains,Yes
+Sheep,swollen belly,dullness,discharge,urination,lying down,Yes
+Sheep,fever,dullness,depression,weight loss,anorexia,Yes
+Sheep,fever,succumb,spread of infection,weight loss,anorexia,Yes
+Sheep,signs in rams,signs in ewe,underdeveloped muscles,semen examination,reduce lamp marking,Yes
+Sheep,spines,unusally thin,weakness,enlarged skulls,weakness,Yes
+Sheep,discharge,sudden abortion,hemoglobinuria,death of lamb,weight loss,Yes
+Sheep,fever,hemolytic anemia,sweats,congestion,jaundice,Yes
+Sheep,fever,tiredness,loss of appetite,muscle aches,chest pain,Yes
+Sheep,excess salivation,diarrhea,depression,nasal discharge,weakness,Yes
+Sheep,fever,diarrhea,incoordination,abortion,blood poisioning,Yes
+Sheep,fever,wasting,dehydration,deability,weakness,Yes
+Sheep,fever,diarrhea,muscle twiching,lameness,weight loss,Yes
+Sheep,teeth griding,apathy,dehydration,ruminal stasis,watery faeces,
+Sheep,fever,depression,lying down,weak pulse,colic,Yes
+Sheep,swelling,lameness,hyperaestesia,hock joint,weight loss,Yes
+Sheep,head tilt,circling,muscles ache,blindness,seizures,Yes
+Sheep,decreased growth of bone,depression,grunting,lameness,weight loss,Yes
+Sheep,swollen left abdomen,lying down,staggering,urination,extension of neck,Yes
+Sheep,cessation of eructation,difficulty in breathing,depression,anorexia,colic,Yes
+Sheep,fever,excession salivation,abnormal conformation,ulcerated muscle,ulcerated ear,Yes
+Sheep,barren ewes,abortion,poor conformation,hairy fleeces,weight loss,Yes
+Sheep,tremor,viability,coughing,anorexia,weight loss,Yes
+Sheep,fever,tachypea,swelling of head and neck,anorexia,nasal discharge,Yes
+Sheep,lllthrift,skin lesion,lameness,swelling on thebody,weight loss,Yes
+Sheep,swelling,heat,flank,pain,nasal discharge,Yes
+Sheep,fever,loss of appetite,lameness,rump,weight loss,Yes
+Sheep,fever,swelling,loss of appetite,anorexia,weight loss,Yes
+Sheep,fever,diarrhea,bloody droping,abdominal discomfort,lethargy,Yes
+Sheep,fever,depression,small intestines,death,flock moratality,Yes
+Sheep,haemorrhage,straw colored,abdominal pain,death,carcass decomposes,Yes
+Sheep,bloody diarhhea,depression,dullness,death,weakness,Yes
+Sheep,reluctant move,loss of appetite,lameness,death,weakness,Yes
+Sheep,fever,depression,loss of appetite,loss of appetite,pains,Yes
+Sheep,fever,difficulty in breathing,lethargy,death,pains,Yes
+Sheep,poor wool,loss of appetite,lameness,small size,poor body condition,Yes
+Sheep,poor immune function,achomotrica,dehydration,death,pains,Yes
+Sheep,abdominal pain,diarrhea,malpresentation,shock,anorexia,Yes
+Sheep,fetopelvic dispropotion,uteria inertia,despression,death,pains,Yes
+Sheep,watery diarrhea dispropotion,sick,corneal ulceration,loss of appetite,death,Yes
+Sheep,severe kerititis,conjunctive,discharge,iris prolapse,loss of eye,Yes
+Sheep,swollen,testical pain,itches,bloody discharge,tenderness,Yes
+Sheep,fever,diarrhea,depression,scratches,weight loss,Yes
+Sheep,foul smelling,dullness,dirty,stained wool,tail shaking,Yes
+Sheep,sheep often bites,fleece become thin,loss of wool,death,pains,Yes
+Sheep,fever,dullness,dullness,skin rashes,pains,Yes
+Sheep,fever,difficulty in breathing,rub,coughing,sneezing,Yes
+Sheep,restlessness,kick,lethargy,nible at their wool,scratching,Yes
+Sheep,jaundice,loss of appetite,rough hair coat,coughing,death,Yes
+Sheep,fever,reduce reproductive potential,agalactia,loss of milk production,sloughing of the tail,Yes
+Sheep,pyrexia,oral lesion,swelling,lameness,death,Yes
+Sheep,red skin,loss of appetite,moist,lameness,pains,Yes
+Sheep,limping,skin colour change,flabby,raw,sensitive to touch,Yes
+Sheep,groosly enlarged,skin may thicken,convulsion,edematous,pains,Yes
+Sheep,hyperexcitability,muscular spasms,gums,death,pains,Yes
+Sheep,decreased eyelid,very cold skin,lethargy,lip,fever,Yes
+Sheep,fever,diarrhea,muscus,weight loss,death,Yes
+Sheep,foul smelling,diarrhea,colic,bloody discharge,blood clots,Yes
+Sheep,inability to digest,diarrhea,dehydration,weight loss,anemia,Yes
+Sheep,fever,diarrhea,pot belly,death,loss of appettite,Yes
+Sheep,emaciation,diarrhea,coughing,weight loss,death,Yes
+Sheep,respiratory distress,diarrhea,death,reduce milk,weight loss,Yes
+Sheep,lllthrift,bottle jaw,strange behaviour,aneamia,jaundice,Yes
+Sheep,fever,lameness,wasting,blindness,staggering,Yes
+Sheep,fever,diarrhea,clearly unthrifty,weight loss,good appetite,Yes
+Sheep,fever,dullness,relunctance to walk,infected navels,pains,Yes
+Sheep,tenderness,foot hot,facial paralysis,weight loss,pains,Yes
+Sheep,fever,lack of coordination,painfull to touch,circling,depression,Yes
+Sheep,swollen,warm,constipation,depression,bloody,Yes
+Sheep,fever,loss of appetite,stumbling,restlessness,pains,Yes
+Sheep,unsteady gait,twitching,blindness,swelling on joints,pains,Yes
+Sheep,fever,ulcer,scabs,discharge from eye,pains,Yes
+Sheep,smell of ammonia,ulcer,depression,swelling,pains,Yes
+Sheep,fever,lethargy,blindness,inappentence,increased in breathing,Yes
+Sheep,wandering,circling,blindness,head pressing,recumbency,Yes
+Sheep,tremors,lying on the side,difficulty in swallowing,death,not eating,Yes
+Sheep,fever,difficulty in breathing,coughing,sneezing,seizures,Yes
+Sheep,swelling,loss of appetite,wool loss,tears,death,Yes
+Sheep,wool is clumped,feels stiff,staggering,skin rashes,pains,Yes
+Sheep,swaying,behaviour change,tremor,jerky limb movements,pains,Yes
+Sheep,cell damage,behaviour change,weight loss,pruritis,death,Yes
+Sheep,swelling,discomfort,difficulty in rising,death,pains,Yes
+Sheep,swollen,hot joints,pustulses,difficulty in walk,pains,Yes
+Sheep,formation of vesicles,nostrils,abnormally long leg,scabs on lip,pains,Yes
+Sheep,skeleten abnormalities,facial defects,hair loss,flat ribs,underdeveloped muscles,Yes
+Sheep,wether restless,kicking,normal appetite,attempt to urinate,pains,Yes
+Sheep,inability to stand,pains to walk,depression,weakness,stiffness,Yes
+Sheep,fever,succumb,sluggish,anorexia,pains,Yes
+Sheep,listless,bottle jaw,malpresentation,death,oxygen defiency,Yes
+Sheep,fever,swelling,bloody,death,anemia,Yes
+Sheep,thivk skin,crusty,scaly skin,lesion,pains,Yes
+Sheep,fever,abortion,vomiting,weight loss,anorexia,Yes
+Sheep,dizzines,anemia,vomiting,head ache,nausea,Yes
+Sheep,fever,wool loss,swelling,weight loss,pains,Yes
+Sheep,tear production,anversion to light,bluish white opacity,blindness,pains,Yes
+Sheep,fever,swelling,lameness,heat,pains,Yes
+Sheep,skin color change,crusty,scaly skin,irritation,blister,Yes
+Sheep,radip onset,stiff,muscle trembling,weakness,death,Yes
+Sheep,head shking,discharge from ear,scartching ear,odor to ear,redness on ear,Yes
+Sheep,discharge from eyes,redness of eye,blindness,scartches,pains,Yes
+Sheep,fever,loss of appetite,scartches,death,pains,Yes
+Sheep,discomfort,loss of appetite,bloody diarrhea,profuse,pains,Yes
+Sheep,swelling,larynx,swelling on jaw,hoarseness,neck vein swelling,Yes
+Sheep,inflammation,discomfort,kicking at the belly,urine infection,pains,Yes
+Sheep,isolation from flock,stealing,nesting behaviour,pawing at bedding,pains,Yes
+Sheep,listless,difficulty in walking,grinding of teeth,blindness,ataxia,Yes
+Sheep,bluish white opacity,aversion to light,tear produce,blindness,weakness,Yes
+Sheep,head tossing,wool loss,fast breathing,bleeding wounds,skin issue,Yes
+Pig,coughing,panting,"facial swelling,",production of mucus,fatigue,Yes
+Poultry,cough,sneeze,droopy wings,twisted neck,droopy wings,Yes
+Poultry,shortness of breath.,fatigue,chirping,loss of appetite,swollen abdomen,Yes
+Other birds,gasping,coughing,mild weakness,droopy wings,twisted neck,Yes
+Pig,excessive blood loss,dizziness and fainting,blurry vision,watery eyes,slow growth,Yes
+Poultry,nosebleed,trauma,mild weakness,nose picking,dry air,Yes
+Poultry,bleeding from other parts of the body,confusion,nasal discharge,loss of alertness,dizziness and fainting,Yes
+Other birds,bad breath,pawing at the face or nose,cough,sneezing,bleeding from the nose,Yes
+Poultry,extending its neck,gasping for air,gasping for breath,difficulty swallowing,gasping for breath,Yes
+Poultry,difficulty swallowing,cough,difficulty swallowing,gasping for air,extending its neck,Yes
+Other birds,cough,gasping for air,weight loss,gasping for breath,extending its neck,Yes
+Pig,weakness,decreased stool production,distended stomach,heavy breathing,restless movement,Yes
+Poultry,eye redness,frequent eye infections,crusty eye lashes and matting of eyelashes,foul smelling stools,increased passing gas,Yes
+Poultry,excessive eye watering,eye redness,weakness,mucus discharge from the eye,frequent eye infections,Yes
+Other birds,sudden death,loss of appetite,rapid heartbeats,fluffed feathers,lack of vocalizations,Yes
+Poultry,unable to urinate,lightheadedness,droopiness,rectal bleeding,swollen abdomen,Yes
+Poultry,extreme thirst,bloody discharge,loss of appetite,inability to fly,loss of wariness,Yes
+Other birds,egg production stops,broody behavior,loss of appetite,weight loss,constipation,Yes
+Poultry,nausea,vomiting,loss of appetite,experiencing changes in weight,pain and bloating,Yes
+Poultry,burning ache or pain,vomiting,loss of appetite,experiencing changes in weight,pain and bloating,Yes
+Other birds,continuous loss of weight,regurgitation of food,wheezing,excessive food intake,undigested seeds,Yes
+Snake,loss of appetite,lathargy,abortion,gurgling sound,depression,Yes
+Horse,fever,mild colic,loss of tail tone,loss of appetite,depression,Yes
+Horse,head tilt,lathargy,lathargy,urine dribbling,inability to rise,Yes
+Horse,fever,loss of appetite,respiratory noise,weight loss,depression,Yes
+Horse,fever,nasal discharge,muscular stiffness,swollen lymph nodes,depression,Yes
+Horse,sweating,muscular spasms,thirst,weight loss,difficulty moving and eating,Yes
+Poultry,loss of appetite,high body temperaure,lack of appetite,diarrhea,sudden death,Yes
+Donkey,sweating,dry or tacky gums,reduced appetite,lying down,dull ness,Yes
+Donkey,outstretched neck,dull ness,inappetence,noisy breathing,coughing,Yes
+Donkey,weight loss,dull ness,inappetence,self-isolation,recumbency,Yes
+Donkey,weight loss,dull ness,muscles problem,self-isolation,recumbency,Yes
+Elephant,changed gait,dull ness,muscles problem,pain,pains,Yes
+Elephant,changed gait,dull ness,diffuse,difficulty diagnosis,anemia,Yes
+Elephant,difficulty in breathing,swelling problem,bleeding from wounds,frequent yawning,anorexia,Yes
+Elephant,undernutrition,drinking polluted water,listlessness,staggering,anorexia,Yes
+Deer,wasting,stumbling,listlessness,drooling,drooping ears,Yes
+Elk,wasting,stumbling,listlessness,drooling,urination problem,Yes
+Wapiti,wasting,stumbling,listlessness,drooling,urination problem,Yes
+Deer,wasting,stumbling,listlessness,drooling,urination problem,Yes
+Mule deer,wasting,stumbling,listlessness,drooling,urination problem,Yes
+Black-tailed deer,wasting,stumbling,listlessness,drooling,urination problem,Yes
+Sika deer,wasting,stumbling,listlessness,drooling,urination problem,Yes
+White-tailed deer,wasting,stumbling,listlessness,drooling,drooping ears,Yes
+Reindeer,wasting,stumbling,listlessness,drooling,drooping ears,Yes
+Moos,wasting,stumbling,fever,drooling,drooping ears,Yes
+Wild_Cat,feline infections,lymphosarcoma,difficulty breating,stomatitis,anaemia,Yes
+Deer,sudden death,high temperature,difficulty breating,weight loss,trembling,Yes
+Cattle,sudden death,high temperature,difficulty breating,aneamia,trembling,Yes
+Goat,sudden death,high temperature,difficulty breating,staggering,trembling,Yes
+Sheep,sudden death,high temperature,rapid pulse and heart rates,depression,trembling,Yes
+Cattle,fever,loss of appetite,rapid pulse and heart rates,lameness in affected leg,depression,Yes
+Sheep,fever,loss of appetite,rapid pulse and heart rates,lameness in affected leg,depression,Yes
+Goat,fever,loss of appetite,rapid pulse and heart rates,lameness in affected leg,depression,Yes
+Cattle,fever,loss of appetite,swollen teats,lameness in affected leg,depression,Yes
+Cattle,swelling,nasal discharge,drooling,tiredness,fever,Yes
+Sheep,eye discharges,nasal discharge,change their normal behaviour,high body temperature,lameness,Yes
+Dog,stop eating,stop drinking,change their normal behaviour,lameness,pains,Yes
+Fox,stop eating,stop drinking,change their normal behaviour,weight loss,pains,Yes
+Wolves,stop eating,stop drinking,change their normal behaviour,depression,pains,Yes
+Hyaenas,stop eating,stop drinking,change their normal behaviour,diarrhea,pains,Yes
+Poultry,fever,diffulty swallowing,excessive drooling,staggering,seizures,Yes
+Poultry,fever,diarrhea,vomiting,weight loss,dehydration,Yes
+Poultry,fever,diarrhea,coughing,tiredness,pains,Yes
+Poultry,fever,diarrhea,coughing,vomiting,anorexia,Yes
+Poultry,fever,difficulty breathing,coughing,lethargy,sneezing,Yes
+Poultry,fever,diarrhea,coughing,lethargy,blue eye,Yes
+Poultry,fever,respiratory distress,seizures,hyperesthesia,sudden death,Yes
+Poultry,ulcers,diarrhea,poor appetite,tarry stool,enlarged lymph nodes,Yes
+Poultry,facial swelling,bloody drool,foul breath,unable to eat,lossened teeth,Yes
+Poultry,fever,difficulty breathing,thrist and urination,weight loss,enlarged lymph nodes or swelling,Yes
+Poultry,swelling on leg,painfull,nasal discharge,broken bones,nasal discharge,Yes
+Poultry,short term lethargy,loss of  appetite,weekness in the back legs,rapid heart rate,week pulse,Yes
+Poultry,swollen lymph nodes,difficulty walking,back pain,lethargy,vaginal discharge,Yes
+Poultry,fever,diarrhea,abdominal pain,stiffness,severe weekness and depression,Yes
+Poultry,fever,loss of  appetite,reduce energy,lameness,swelling of joints,Yes
+Poultry,fever,chronic eye inflamation,poor appetite,lethargy,neurologic abnormalities,Yes
+Poultry,fever,swelling of face or leg,poor appetite,depression,pains,Yes
+Poultry,diarrhea with muscus,tensemus,watery stool,flatulence,pains,Yes
+Poultry,strong cough,runny nose,sneezing,lethargy,loss of appettite,Yes
+Poultry,fever,inflammed eye,coughing,depression,limping,Yes
+Poultry,fever,difficulty breathing,coughing,eye and skin change,unable to exercise,Yes
+Poultry,fever,loss of  appetite,coughing,lethargy,joint pain,Yes
+Poultry,lesions in the nasal cavity,lesions on nose,nose bleeds,noisy breathing,lesions on nose,Yes
+Poultry,hair loss,dandruff,darkened skin,crusting of the skin,ulcerated skin,Yes
+Poultry,greenish-yellow nasal discharge,lack of pigmentation,sneezing,lethargy,pain on face,Yes
+Poultry,fever,diarrhea,poor appetite,weight loss,vomitting,Yes
+Poultry,jaundice,pneumonia,lession on the skin,pain,vomitting,Yes
+Poultry,poor coat apperence,diarrhea,vomiting,weight loss,dehydration,Yes
+Poultry,watering,no appp,vomiting,lethargy,dehydration,Yes
+Poultry,straining,diarrhea,vomiting,weight loss,blindness,Yes
+Poultry,upset stomach,diarrhea,vomiting,muscle pain,muscle stiffness,Yes
+Poultry,upset stomach,diarrhea,coughing,weight loss,anaemia,Yes
+Poultry,allergic reaction,poor appetite,coughing,weight loss,distended chest,Yes
+Poultry,fever,anorexia,weight loss,lethargy,pain,Yes
+Poultry,limping,willnot run to jump,swelling,week legs,pain on leg,Yes
+Poultry,fever,eye ulcer,congestion,depression,pink eye,Yes
+Poultry,pneumonia,loss of  appetite,eye disharge,lameness,arthritis,Yes
+Poultry,fever,seizures,hydrophobia,jaw is dropped,shyness or aggression,Yes
+Poultry,bloody urine,diffculty breathing,vomiting,weight loss,anorexia,Yes
+Poultry,loss of eat,difficulty in breathing,swelling,lameness,neurologic abnormalities,Yes
+Poultry,dark or black face,diarrhea,vomiting,blood in faces,pain,Yes
+Poultry,jaundice,difficulty in breathing,seizures,lethargy,pale gums,Yes
+Poultry,appetite varies,diarrhea,vomiting,weight loss,pain,Yes
+Poultry,loss of eat,fell unwell,lethargy,weight loss,skin issue,Yes
+Poultry,sickness,loss of  appetite,vomiting,weight loss,raised growth or bump,Yes
+Poultry,nasal bleeding,diffulty chewing,swelling,weight loss,anorexia,Yes
+Poultry,ulcers,lesions,scabs,lumps,"bumps(black,grey or red)",Yes
+Poultry,gasc,loss of  appetite,blood in stool,stomach growling,black stool,Yes
+Poultry,shaking head,scartching ear,black on ear,bad smell,red and inflammation ear,Yes
+Poultry,attacks,loss of  appetite,coughing,weight loss,periodic vommiting,Yes
+Elephant,blood stool,diarrhea,coughing,weight loss,anemia,Yes
+Elephant,nasal discharge,nosebleeds,inflamed nostrils,sneezing,lound breathing,Yes
+Elephant,polyuria,loss of  appetite,vomiting,weight loss,polydipsa,Yes
+Elephant,exessive urination,change in gait,vomiting,weight loss,inability to jump,Yes
+Elephant,convulsion,loss of consciousness,chewing,twitching,salivating,Yes
+Elephant,wheezing,rapid breathing,coughing,swallowing,effort to breath,Yes
+Elephant,jaundice,weakness,lethargy,weight loss,anorexia,Yes
+Elephant,lession on cat skin,dandruff in cat coat,red patches,hair loss,skin issue,Yes
+Elephant,lethargy,diarrhea,vomiting,discharge from eye,anorexia,Yes
+Elephant,skin irritation,scartching,lethargy,hair loss,excessive grooming,Yes
+Elephant,floopy muscle,speech delay,intellectual disability,walking problem,eye movements,Yes
+Elephant,sensitivity to bright light,disharge from affected eye,inflammation,clouded cornea,rubbing eye,Yes
+Elephant,fever,diarrhea,vomiting,cramps,dehydration,Yes
+Elephant,tenderness,erythema,swelling,scartch,pain,Yes
+Elephant,fever,diarrhea,vomiting,salivation,decrease appetite,Yes
+Elephant,scaly patches of skin,sore,scabs,scartch,hair loss,Yes
+Elephant,fatty stool,diarrhea,vomiting,weight loss,pain,Yes
+Elephant,nausea,loss of appetite,vomiting,firm,distended stomach,Yes
+Elephant,fever,swelling  in the bite area,lethargy,limp,pain,Yes
+Elephant,fever,loss of appetite,eyeproblem,liver disease,nuerological,Yes
+Elephant,fever,mild sneezing,coughing,nasal,ocular discharge,Yes
+Elephant,most often none,sneezing,nasal discharge,dyspnea,pain,Yes
+Elephant,fever,diarrhea,vomiting,blood from mouth,shock,Yes
+Elephant,discomfort,diarrhea,dry or dull hair,grinding teeth,pain,Yes
+Elephant,loss of appetite,swelling,nasal discharge,blindness,lethargy,Yes
+Elephant,rhinitis,pneumonia,abscessess,torticollis,septicemia,Yes
+Elephant,fever,diarrhea,enteritis,weight loss,stomach  cramps,Yes
+Elephant,immediate death,difficulty in breathing,blue colored lip,bloody discharge,neurologic abnormalities,Yes
+Elephant,fever,pox lession on skin,skin reashes,nasal discharge,mortality varies,Yes
+Elephant,red on affected area,horny growth,wart-like growth,red skin,lesions on ear,Yes
+Elephant,fever,chills,skin ulcer,exhaustion,swollen and painfull,Yes
+Elephant,watering diarrhea,depression,emaciation,ruffled coat,lethargy,Yes
+Elephant,loss in weight,emaciation,loss of appetite,weakness,diarrhea,Yes
+Elephant,loss of appetite,diarrhea,swollen purple wattle,swollen comb,lameness,Yes
+Elephant,loss of appetite,diarrhea,ruffled feathers,weight loss,inability to absorb nutrients,Yes
+Elephant,egg production decreases,stunted growth,blindness,distinctive bumps,facial swelling,Yes
+Elephant,loss of appetite,thirst,ruffled feathers,closed eyes,diarrhea,Yes
+Elephant,fever,weakened legs,los of the ability to walk,mammary glads,fluif filled blisters,Yes
+Elephant,fever,weakened legs,los of the ability to walk,weight loss,lameness,Yes
+Elephant,abortion at the end of gestation,fatigue,weak calves,join pains,swelling of internal organs,Yes
+Elephant,swollen,red-colored,hot udder,milk getting out more watery,milk getting out more thick,Yes
+Elephant,fever,distress,trembling,staggering,convulsion,Yes
+Elephant,fever,animal become lame,prostrat,painfull swalling,lameness,Yes
+Elephant,fever,difficulty in breathing,dribbling of saliva,inability of swalllon feeding,moist and painfull,Yes
+Elephant,fluif faeces on blood and muscle,sudden death,blooody fluid,red diarrhea,faeces are streake with blood,Yes
+Elephant,fever,pneumonia,stand with head droping,weight loss,abnormal behaviour,Yes
+Elephant,fever,slightly swollen,lession on the skin,milky hard,papules appear on teats anad udder,Yes
+Elephant,fever,dull,hind quarted soil,animal stop feed,decrease in milk production,Yes
+Elephant,severe,diarrhea,blood on faces,appetite,milk reduce,Yes
+Elephant,fever,depression,relunctance to move,salivation,nasal discharge,Yes
+Elephant,normal appetite,diarrhea,swelling may occur under jaw,weight loss,drop in milk production,Yes
+Elephant,swelling on leg,heat,hardness,redness,pain,Yes
+Elephant,inability to stand,diarrhea,bottle jaw,pot belly,dry hair coat,Yes
+Elephant,excitability,nervousness,loss of appetite,hyper sensitivity,weakness,Yes
+Elephant,fever,depression,attack,bite other animals,pain,Yes
+Hamster,fever,difficulty in breathing,coughing,painfull,eye become dull,Yes
+Hamster,fever,ulcer on gum,red eye,yellowish discharge,bloody diarrhea,Yes
+Hamster,fever,diarrhea,coughing,consistency of milk,pain,Yes
+Hamster,animal gets uneasy,difficulty in breathing,difficult in respiration,excessive production,stamping and pedding of hind eye,Yes
+Hamster,fever,chills,severe colic,weakness,anorexia,Yes
+Hamster,fever,body stiffness,lethargy,severe inflammation,pain,Yes
+Hamster,sickness,diarrhea,weight loss,nausea,dehydration,Yes
+Hamster,sudden death,trouble walking,paralysis,depression,convulsion,Yes
+Hamster,fever,abortion,kidney failure,inflammation of eye,eye redness,Yes
+Hamster,small red bumps,pneumonia,septic arthritis,skin infection,pain,Yes
+Hamster,fever,ataxia,aggressiveness,depression,obscure lameness,Yes
+Poultry,ring shaped lesion,round patches,dry skin,size of lesions vary,pain,Yes
+Poultry,fever,diarrhea,loss of appetite,colic,weakness,Yes
+Poultry,fever,depression,loss of appetite,stumbling,ataxia,Yes
+Poultry,bubbles in the mouth,wheezing,loss of appetite,lethargy,nasal discharge,Yes
+Poultry,changes in outer layer skin,swelling of eye,loss of appetite,lethargy,respiratory infection,Yes
+Poultry,red tinge,slim over the shell,bad smell,easily damage shell,flaking of the scutes,Yes
+Poultry,passing of undigested food,diarrhea,vomiting,gas or bloating,dehydration,Yes
+Poultry,smell,diarrhea,loss of appetite,excess sleeping,folded ears,Yes
+Poultry,loss of activity,rough coat,loss of appetite,weight loss,eventually death,Yes
+Poultry,fever,diarrhea,vomiting,dehydration,pain,Yes
+Poultry,bald patches,hair loss,crusty,flaky,red lesion from bald patches,Yes
+Poultry,poor condition,enlarged lymph nodes,diarrhea,weight loss,pain,Yes
+Poultry,fever,chills,coughing,progressive weakness,joint pain,Yes
+Poultry,heavy infection,diarrhea,vitamin and minerals defiency,weight loss,pain,Yes
+Poultry,fever,diarrhea,muscle weakness,muscle pain,abdonormal discomfort,Yes
+Poultry,fever,chills,headache,nausea,pain,Yes
+Poultry,thicked skin,hair tining,hair loss,scabbing,itchiness,Yes
+Poultry,facial edema,loss of earing,vomiting,head ache,throat and ear pain,Yes
+Poultry,general malaise,hepatic failure,vomiting,weight loss,abdonormal pain,Yes
+Poultry,upset stomach,loss of appetite,nause,weight loss,abdonormal pain,Yes
+Poultry,fever,muscle loss,skeleten pain,weight loss,wasting,Yes
+Poultry,oedema,swelling of face or leg,swelling of neck,weight loss,pain,Yes
+Poultry,poor growth,short stature,enlargement of bones,lameness,weigth bearing long bones,Yes
+Poultry,fever,chills,sweat,head ache,fatique,Yes
+Poultry,fever,loss of appetite,weakness,weight loss,vomitting,Yes
+Poultry,dullness,lacrimation,coughing,diarrhea,seizures,Yes
+Poultry,vomiting,bloody diarrhea,lethargy,dehydration,anorexia,Yes
+Poultry,fever,uncharacteristic hiding,depression,dehydration,stopped eat,Yes
+Poultry,fever,poor coat condition,infection of the skin,weight loss,fatique,Yes
+Poultry,weakness,stiffness,trembling,white mark on the muscle,loss of vitamin e,Yes
+Poultry,partial paralysis,staggering as drunk,self mutilation,acting aggressive,acting unnaturally tame,Yes
+Poultry,fever,tiredness,headache,skin rashes,pain,Yes
+Poultry,thick crusting,itchiness,hair loss,watery eye,pain,Yes
+Poultry,constant pacing,facial muscle twitching,abnormalalities,blindness,muscle pain,Yes
+Poultry,loss od appetite,wheezing,seizures,skin rashes,fatique,Yes
+Poultry,indigestion,abdminal pain,constipation,diarrhea,nausea,Yes
+Poultry,blood in urine,diarrhea,vomiting,lethargy,bleeding in eye and skin,Yes
+Poultry,fever,malaise,weakness,weight loss,pain,Yes
+Poultry,fever,diarrhea,vomiting,stomach cramps,nausea,Yes
+Poultry,fever,lack of coordination,depression,salivation,facial paralysis,Yes
+Poultry,sores on lip,infection,sores on lower leg and teats,lesion,pain,Yes
+Poultry,abortion on late pregancy,stillbirth,retained placenda,endomeritis,decrease appetite,Yes
+Poultry,paresis,paralysis,weakness,stomach cramps,diarrhea,Yes
+Poultry,fever,diarrhea,swelling,weight loss,pain,Yes
+Poultry,fever,hemolytic anemia,hemoglobinuria,pulmonary congestion,jaundice,Yes
+Poultry,abortion,mummification,stillbirth,weak kids,pain,Yes
+Poultry,runny nose,difficulty in breathing,coughing,weakness,loss of appettite,Yes
+Poultry,fever,nasal discharge,respiratory distress,pox lesion,pain,Yes
+Poultry,fever,dark colored bloody,incoordination,difficulty in breathing,terminal convulsion,Yes
+Poultry,fever,dysentery,swelling,immediate death,pain,Yes
+Poultry,fever,respiratory distress,mucous discharge,reduce feed,weight gain,Yes
+Poultry,decreased milk,holding limbs off the ground,weight loss,lameness,wool production,Yes
+Poultry,swelling of udder,change in milk,swollen,tender to touch,pain,Yes
+Poultry,fever,respiratory distress,occular discharge,mouth lesion,nasal discharge,Yes
+Poultry,fever,wound lesion,excess salivary,difficult in walking,pain,Yes
+Poultry,emaciation,edema in lower jaw,coughing,shivering,anemia,Yes
+Cattle,fever,reduce growth,kid moratality,weakness,dullness,Yes
+Cattle,fever,reduce growth,edema in lower jaw,weight loss,anemia,Yes
+Cattle,emaciation,diarrhea,kid moratality,weakness,anemia,Yes
+Cattle,skinallergy,reduce growth,wound,head ache,dizziness,Yes
+Cattle,watering of eyes,redness of white of the eye,swelling of eyelid,cornea become cloudy,tear production,Yes
+Cattle,berberi,wasting,nervous,weight loss,anorexia,Yes
+Cattle,gastritis,morbidity,bloody,mortality,anemia,Yes
+Cattle,fever,severe headache,vomiting,coughing,fatique,Yes
+Cattle,fever,tiredness,swollen kidney,hematuria,muscle aches,Yes
+Cattle,fever,diarrhea,decreased appetite,vomiting,bloody,Yes
+Cattle,gas,diarrhea,abdominal discomfort,vomiting,nausea,Yes
+Cattle,drooping ears,lack of coordination,drooling,wasting,listlessness,Yes
+Cattle,edema,diarrhea,nasal discharge,decresed egg production,sneezing,Yes
+Cattle,drooping wings,depression,nasal discharge,coughing,greenish diarrhea,No
+Cattle,weakness,yellow or green dropping,purplish combs,wattles,drop on egg production,No
+Cattle,neck paralysis,diarrhea,ruffled feathers,labored breathing,weakness,No
+Cattle,facial swelling,lacrimation,diarrhea,anorexia,nasal discharge,No
+Cattle,loss of appetite,depression,paralyzed leg,weight loss,anemia,No
+Cattle,dejection,loss of appetite,slow growth,diarrhea,lesion,No
+Cattle,severe swellimg,heavy breathing,diarrhea,weight loss,pain,No
+Cattle,weakness,diarrhea,high moratality,dehydration,anorexia,No
+Cattle,fever,hepatitis,skin rashes,weight loss,pain,No
+Cattle,sneezing,epistaxis,coughing,difficulty in breathing,nasal discharge,No
+Cattle,sneezing,unilateral nasal discharge,gagging,retching,weight loss,Yes
+Cattle,fever,depression,coughing,weight loss,anorexia,Yes
+Cattle,shallow breathing,halitosis,coughing,lethargy,nasal discharge,Yes
+Cattle,dyspnea,sneezing,coughing,difficulty in breathing,infection,Yes
+Cattle,dyspnea,sneezing,coughing,difficulty in breathing,pain,Yes
+Cattle,fever,rhinorrhea,coughing,sneezing,dehydration,Yes
+Cattle,fever,rhinorrhea,coughing,facial edema,dyspnea,Yes
+Cattle,fever,rhinorrhea,coughing,sneezing,nasal discharge,Yes
+Cattle,mortality,painfull,coughing,weight loss,nasal discharge,Yes
+Cattle,skin rashes,diarrhea,death,facial edema,pain,Yes
+Cattle,fever,dyspnea,coughing,lethargy,weightloss,Yes
+Cattle,fever,dyspnea,coughing,weakness,anorexia,Yes
+Cattle,facial edema,dyspnea,conjuctivtis,weakness,pharyngitis,Yes
+Cattle,fever,pneumonia,congestion,lethargy,nasal discharge,Yes
+Cattle,fever,death,coughing,weight loss,nasal discharge,Yes
+Cattle,sneezing,convulsion,seizures,weight loss,nasal discharge,Yes
+Cattle,fever,death,coughing,dyspnea,anorexia,Yes
+Cattle,dyspnea,difficulty in breathing,coughing,lethargy,nasal discharge,Yes
+Cattle,air sacculitis,halitosis,coughing,enteritis,weight loss,Yes
+Cattle,fever,convulsion,sudden death,urine retention,weight loss,Yes
+Cattle,dyspnea,neurologic sign,coughing,depression,anorexia,Yes
+Cattle,fever,dyspnea,coughing,lethargy,anorexia,Yes
+Cattle,labored breathing,dyspnea,coughing,depression,anorexia,Yes
+Cattle,blood from mouth,diarrhea,coughing,lethargy,weight loss,Yes
+Cattle,hemopytsis,diarrhea,asymptomatic,death,epistaxis,Yes
+Cattle,restlessness,weakness,blue straws,death,pain,Yes
+Cattle,stripped remiges,less feather growth,ruffled feathers,defienciency in vitamin,diarrhea,Yes
+Cattle,apathy,depression,dilation of duodenum,cloacal pasting,congestion,Yes
+Cattle,lepatomegaly,splenomegaly,vomiting,swollen,shaking oh head,Yes
+Cattle,balance problem,abdominal destention,neck paralysis,weight loss,pains,Yes
+Cattle,legness,paresis,coughing,weight loss,shortness of breath,Yes
+Cattle,fever,sour throat,mortality,muscle aches,abnormalities,Yes
+Cattle,difficulty in feeding,preening,weakness,beak overgrowth,anemia,Yes
+Cattle,fever,loss of appetite,ear infection,depression,nasal discharge,Yes
+Cattle,forthy eye,torticollis,weakness,swelling,emaciation,Yes
+Cattle,inappentence,diarrhea,tremors of the head,dehydration,weight loss,Yes
+Cattle,lack of walking,lack of flying,roughened,dehydration,pains,Yes
+Cattle,skin rashes,small and yellow bumps,swelling,dry scabs,lameness,Yes
+Cattle,scabs on feet,redness,trachea,thickening of skin,pains,Yes
+Cattle,enlarged thymus,obstructed lungs,lethargy,skin rashes,weight loss,Yes
+Cattle,fluffed feather,loss of appetite,coughing,vomiting,snoring,Yes
+Cattle,fever,difficultty in breathing,yellow eye,sneezing,diphtherictic,Yes
+Cattle,heavy breathing,yellow in beak,tail_bobbing,weakness,sleeping excessively,Yes
+Cattle,puffed_up feather,less eat,headache,half-closed eye,seizures,Yes
+Cattle,fever,diarrhea,swollen abdomen,vomiting,difficulty in breathing,Yes
+Cattle,tail wagging,straining,lethargy,weakness,diarrhea,Yes
+Cattle,overweight,loss of appetite,ruffled feathers,depression,diarrhea,Yes
+Cattle,dejection,loss of appetite,stress,coughing,pains,Yes
+Cattle,skin infection,secondary infection,coughing,depression,shaking oh head,Yes
+Cattle,discharge from eyes,lethargy,coughing,sneezing,fatique,Yes
+Cattle,fever,chills,retarded growth,chest pain,chest pain,Yes
+Cattle,pale comb,lame,death,swolling of joint,eye closed,Yes
+Cattle,lethargy,loss of appetite,difficulty in swallowing,weakness,vision problem,Yes
+Cattle,emaciation,difficulty in breathing,vomiting,weakness,diarrhea,Yes
+Cattle,liquid dropping,exhaustion,ataxia,lethargy,seizures,Yes
+Cattle,undigested in their feces,loss of appetite,loss of pigment,weakness,bloody in feather,Yes
+Cattle,sharp feather,clubbed feather,eye disharge,loss of powder down,diarrhea,Yes
+Cattle,ruffled appearance,loss of appetite,vomiting,green dropping,nasal discharge,Yes
+Cattle,sinuses,swollen eyelids,skin rashes,sneezing,misshapen beak,Yes
+Cattle,feather loss,feather plucking,coughing,itching,nasal discharge,Yes
+Cattle,watery eyes,eye closed,weight loss,sneezing,nervous issue,Yes
+Cattle,bony lesion,skin rashes,ataxia,anorexia,weakness,Yes
+Cattle,tremor of head and neck,blindness,kicking at the belly,exercise in tolerance,pains,Yes
+Cattle,swollen belly,dullness,discharge,urination,lying down,Yes
+Cattle,fever,dullness,depression,weight loss,anorexia,Yes
+Cattle,fever,succumb,spread of infection,weight loss,anorexia,Yes
+Cattle,signs in rams,signs in ewe,underdeveloped muscles,semen examination,reduce lamp marking,Yes
+Cattle,spines,unusally thin,weakness,enlarged skulls,weakness,Yes
+Cattle,discharge,sudden abortion,hemoglobinuria,death of lamb,weight loss,Yes
+Cattle,fever,hemolytic anemia,sweats,congestion,jaundice,Yes
+Cattle,fever,tiredness,loss of appetite,muscle aches,chest pain,Yes
+Cattle,excess salivation,diarrhea,depression,nasal discharge,weakness,Yes
+Cattle,fever,diarrhea,incoordination,abortion,blood poisioning,Yes
+Cattle,fever,wasting,dehydration,deability,weakness,Yes
+Cattle,fever,diarrhea,muscle twiching,lameness,weight loss,Yes
+Cattle,teeth griding,apathy,dehydration,ruminal stasis,watery faeces,
+Cattle,fever,depression,lying down,weak pulse,colic,Yes
+Cattle,swelling,lameness,hyperaestesia,hock joint,weight loss,Yes
+Cattle,head tilt,circling,muscles ache,blindness,seizures,Yes
+Cattle,decreased growth of bone,depression,grunting,lameness,weight loss,Yes
+Cattle,swollen left abdomen,lying down,staggering,urination,extension of neck,Yes
+Cattle,cessation of eructation,difficulty in breathing,depression,anorexia,colic,Yes
+Cattle,fever,excession salivation,abnormal conformation,ulcerated muscle,ulcerated ear,Yes
+Cattle,barren ewes,abortion,poor conformation,hairy fleeces,weight loss,Yes
+Pig,tremor,viability,coughing,anorexia,weight loss,Yes
+Pig,fever,tachypea,swelling of head and neck,anorexia,nasal discharge,Yes
+Pig,lllthrift,skin lesion,lameness,swelling on thebody,weight loss,Yes
+Pig,swelling,heat,flank,pain,nasal discharge,Yes
+Pig,fever,loss of appetite,lameness,rump,weight loss,Yes
+Pig,fever,swelling,loss of appetite,anorexia,weight loss,Yes
+Pig,fever,diarrhea,bloody droping,abdominal discomfort,lethargy,Yes
+Pig,fever,depression,small intestines,death,flock moratality,Yes
+Pig,haemorrhage,straw colored,abdominal pain,death,carcass decomposes,Yes
+Pig,bloody diarhhea,depression,dullness,death,weakness,Yes
+Pig,reluctant move,loss of appetite,lameness,death,weakness,Yes
+Pig,fever,depression,loss of appetite,loss of appetite,pains,Yes
+Pig,fever,difficulty in breathing,lethargy,death,pains,Yes
+Pig,poor wool,loss of appetite,lameness,small size,poor body condition,Yes
+Pig,poor immune function,achomotrica,dehydration,death,pains,Yes
+Pig,abdominal pain,diarrhea,malpresentation,shock,anorexia,Yes
+Pig,fetopelvic dispropotion,uteria inertia,despression,death,pains,Yes
+Pig,watery diarrhea dispropotion,sick,corneal ulceration,loss of appetite,death,Yes
+Pig,severe kerititis,conjunctive,discharge,iris prolapse,loss of eye,Yes
+Pig,swollen,testical pain,itches,bloody discharge,tenderness,Yes
+Pig,fever,diarrhea,depression,scratches,weight loss,Yes
+Pig,foul smelling,dullness,dirty,stained wool,tail shaking,Yes
+Pig,sheep often bites,fleece become thin,loss of wool,death,pains,Yes
+Pig,fever,dullness,dullness,skin rashes,pains,Yes
+Pig,fever,difficulty in breathing,rub,coughing,sneezing,Yes
+Pig,restlessness,kick,lethargy,nible at their wool,scratching,Yes
+Pig,jaundice,loss of appetite,rough hair coat,coughing,death,Yes
+Pig,fever,reduce reproductive potential,agalactia,loss of milk production,sloughing of the tail,Yes
+Pig,pyrexia,oral lesion,swelling,lameness,death,Yes
+Pig,red skin,loss of appetite,moist,lameness,pains,Yes
+Pig,limping,skin colour change,flabby,raw,sensitive to touch,Yes
+Pig,groosly enlarged,skin may thicken,convulsion,edematous,pains,Yes
+Pig,hyperexcitability,muscular spasms,gums,death,pains,Yes
+Pig,decreased eyelid,very cold skin,lethargy,lip,fever,Yes
+Pig,fever,diarrhea,muscus,weight loss,death,Yes
+Pig,foul smelling,diarrhea,colic,bloody discharge,blood clots,Yes
+Pig,inability to digest,diarrhea,dehydration,weight loss,anemia,Yes
+Pig,fever,diarrhea,pot belly,death,loss of appettite,Yes
+Pig,emaciation,diarrhea,coughing,weight loss,death,Yes
+Pig,respiratory distress,diarrhea,death,reduce milk,weight loss,Yes
+Pig,lllthrift,bottle jaw,strange behaviour,aneamia,jaundice,Yes
+Pig,fever,lameness,wasting,blindness,staggering,Yes
+Pig,fever,diarrhea,clearly unthrifty,weight loss,good appetite,Yes
+Pig,fever,dullness,relunctance to walk,infected navels,pains,Yes
+Pig,tenderness,foot hot,facial paralysis,weight loss,pains,Yes
+Pig,fever,lack of coordination,painfull to touch,circling,depression,Yes
+Pig,swollen,warm,constipation,depression,bloody,Yes
+Pig,fever,loss of appetite,stumbling,restlessness,pains,Yes
+Pig,unsteady gait,twitching,blindness,swelling on joints,pains,Yes
+Pig,fever,ulcer,scabs,discharge from eye,pains,Yes
+Pig,smell of ammonia,ulcer,depression,swelling,pains,Yes
+Pig,fever,lethargy,blindness,inappentence,increased in breathing,Yes
+Pig,wandering,circling,blindness,head pressing,recumbency,Yes
+Pig,tremors,lying on the side,difficulty in swallowing,death,not eating,Yes
+Pig,fever,difficulty in breathing,coughing,sneezing,seizures,Yes
+Pig,swelling,loss of appetite,wool loss,tears,death,Yes
+Pig,wool is clumped,feels stiff,staggering,skin rashes,pains,Yes
+Pig,swaying,behaviour change,tremor,jerky limb movements,pains,Yes
+Pig,cell damage,behaviour change,weight loss,pruritis,death,Yes
+Pig,swelling,discomfort,difficulty in rising,death,pains,Yes
+Pig,swollen,hot joints,pustulses,difficulty in walk,pains,Yes
+Pig,formation of vesicles,nostrils,abnormally long leg,scabs on lip,pains,Yes
+Pig,skeleten abnormalities,facial defects,hair loss,flat ribs,underdeveloped muscles,Yes
+Wild_Cat,wether restless,kicking,normal appetite,attempt to urinate,pains,Yes
+Wild_Cat,inability to stand,pains to walk,depression,weakness,stiffness,Yes
+Wild_Cat,fever,succumb,sluggish,anorexia,pains,Yes
+Wild_Cat,listless,bottle jaw,malpresentation,death,oxygen defiency,Yes
+Wild_Cat,fetopelvic dispropotion,uteria inertia,malpresentation,death,pains,Yes
+Donkey,fetopelvic dispropotion,uteria inertia,malpresentation,death,pains,Yes
+Donkey,fetopelvic dispropotion,uteria inertia,fast breathing,death,pains,Yes
+Donkey,coughing,panting,"facial swelling,",production of mucus,fatigue,Yes
+Donkey,cough,sneeze,droopy wings,twisted neck,droopy wings,Yes
+Donkey,shortness of breath.,fatigue,chirping,loss of appetite,swollen abdomen,Yes
+Donkey,gasping,coughing,mild weakness,droopy wings,twisted neck,Yes
+Donkey,excessive blood loss,dizziness and fainting,blurry vision,watery eyes,slow growth,Yes
+Donkey,nosebleed,trauma,mild weakness,nose picking,dry air,Yes
+Donkey,bleeding from other parts of the body,confusion,nasal discharge,loss of alertness,dizziness and fainting,Yes
+Donkey,bad breath,pawing at the face or nose,cough,sneezing,bleeding from the nose,Yes
+Donkey,extending its neck,gasping for air,gasping for breath,difficulty swallowing,gasping for breath,Yes
+Donkey,difficulty swallowing,cough,difficulty swallowing,gasping for air,extending its neck,Yes
+Donkey,cough,gasping for air,weight loss,gasping for breath,extending its neck,Yes
+Donkey,weakness,decreased stool production,distended stomach,heavy breathing,restless movement,Yes
+Donkey,eye redness,frequent eye infections,crusty eye lashes and matting of eyelashes,foul smelling stools,increased passing gas,Yes
+Donkey,excessive eye watering,eye redness,weakness,mucus discharge from the eye,frequent eye infections,Yes
+Donkey,sudden death,loss of appetite,rapid heartbeats,fluffed feathers,lack of vocalizations,Yes
+Donkey,unable to urinate,lightheadedness,droopiness,rectal bleeding,swollen abdomen,Yes
+Donkey,extreme thirst,bloody discharge,loss of appetite,inability to fly,loss of wariness,Yes
+Donkey,egg production stops,broody behavior,loss of appetite,weight loss,constipation,Yes
+Donkey,nausea,vomiting,loss of appetite,experiencing changes in weight,pain and bloating,Yes
+Donkey,burning ache or pain,vomiting,loss of appetite,experiencing changes in weight,pain and bloating,Yes
+Donkey,continuous loss of weight,regurgitation of food,wheezing,excessive food intake,undigested seeds,Yes
+Donkey,loss of appetite,lathargy,abortion,gurgling sound,depression,Yes
+Donkey,fever,mild colic,loss of tail tone,loss of appetite,depression,Yes
+Donkey,head tilt,lathargy,lathargy,urine dribbling,inability to rise,Yes
+Donkey,fever,loss of appetite,respiratory noise,weight loss,depression,Yes
+Donkey,fever,nasal discharge,muscular stiffness,swollen lymph nodes,depression,Yes
+Donkey,sweating,muscular spasms,thirst,weight loss,difficulty moving and eating,Yes
+Donkey,loss of appetite,high body temperaure,lack of appetite,diarrhea,sudden death,Yes
+Deer,weight loss,dull ness,inappetence,self-isolation,recumbency,Yes
+Deer,weight loss,dull ness,muscles problem,self-isolation,recumbency,Yes
+Deer,changed gait,dull ness,muscles problem,pain,pains,Yes
+Deer,changed gait,dull ness,diffuse,difficulty diagnosis,anemia,Yes
+Deer,difficulty in breathing,swelling problem,bleeding from wounds,frequent yawning,anorexia,Yes
+Deer,undernutrition,drinking polluted water,listlessness,staggering,anorexia,Yes
+Deer,wasting,stumbling,fever,drooling,drooping ears,Yes
+Deer,feline infections,lymphosarcoma,difficulty breating,stomatitis,anaemia,Yes
+Deer,sudden death,high temperature,difficulty breating,aneamia,trembling,Yes
+Deer,sudden death,high temperature,difficulty breating,staggering,trembling,Yes
+Deer,sudden death,high temperature,rapid pulse and heart rates,depression,trembling,Yes
+Deer,fever,loss of appetite,rapid pulse and heart rates,lameness in affected leg,depression,Yes
+Deer,fever,loss of appetite,swollen teats,lameness in affected leg,depression,Yes
+Deer,swelling,nasal discharge,drooling,tiredness,fever,Yes
+Deer,eye discharges,nasal discharge,change their normal behaviour,high body temperature,lameness,Yes
+Deer,stop eating,stop drinking,change their normal behaviour,lameness,pains,Yes
+Deer,stop eating,stop drinking,change their normal behaviour,weight loss,pains,Yes
+Deer,stop eating,stop drinking,change their normal behaviour,depression,pains,Yes
+Cattle,fever,difficulty breathing,thrist and urination,lethargy,sneezing,Yes
+Cattle,fever,diarrhea,nasal discharge,lethargy,blue eye,Yes
+Cattle,fever,respiratory distress,weekness in the back legs,hyperesthesia,sudden death,Yes
+Cattle,ulcers,diarrhea,back pain,tarry stool,enlarged lymph nodes,Yes
+Cattle,facial swelling,bloody drool,abdominal pain,unable to eat,lossened teeth,Yes
+Cattle,fever,difficulty breathing,reduce energy,weight loss,enlarged lymph nodes or swelling,Yes
+Cattle,swelling on leg,painfull,poor appetite,broken bones,nasal discharge,Yes
+Cattle,short term lethargy,loss of  appetite,poor appetite,rapid heart rate,week pulse,Yes
+Cattle,swollen lymph nodes,difficulty walking,watery stool,lethargy,vaginal discharge,Yes
+Cattle,fever,diarrhea,sneezing,stiffness,severe weekness and depression,Yes
+Cattle,fever,loss of  appetite,coughing,lameness,swelling of joints,Yes
+Cattle,fever,chronic eye inflamation,coughing,lethargy,neurologic abnormalities,Yes
+Cattle,fever,swelling of face or leg,coughing,depression,pains,Yes
+Cattle,diarrhea with muscus,tensemus,nose bleeds,flatulence,pains,Yes
+Cattle,strong cough,runny nose,darkened skin,lethargy,loss of appettite,Yes
+Cattle,fever,inflammed eye,sneezing,depression,limping,Yes
+Cattle,fever,difficulty breathing,poor appetite,eye and skin change,unable to exercise,Yes
+Cattle,fever,loss of  appetite,lession on the skin,lethargy,joint pain,Yes
+Cattle,lesions in the nasal cavity,lesions on nose,vomiting,noisy breathing,lesions on nose,Yes
+Cattle,hair loss,dandruff,vomiting,crusting of the skin,ulcerated skin,Yes
+Cattle,greenish-yellow nasal discharge,lack of pigmentation,vomiting,lethargy,pain on face,Yes
