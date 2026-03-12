@@ -1,41 +1,65 @@
 $(document).ready(function () {
-    // Initialize Select2
+    // Initialize Select2 for Animal Group
     $('.search-select').select2({
         width: '100%',
-        placeholder: "ค้นหา...",
+        placeholder: "ค้นหาหรือเลือกชนิดสัตว์...",
         allowClear: true,
         dropdownAutoWidth: true
     });
 
-    // Handle Quick Symptom Chips
-    $('.chip').on('click', function () {
-        const val = $(this).data('val');
-        const $select = $('#symptoms');
-        let currentVals = $select.val() || [];
+    // --- Symptom Sidebar Logic ---
 
-        if (currentVals.includes(val)) {
-            currentVals = currentVals.filter(v => v !== val);
-            $(this).removeClass('active');
-        } else {
-            currentVals.push(val);
-            $(this).addClass('active');
-        }
-
-        $select.val(currentVals).trigger('change');
-    });
-
-    // Sync chips if Select2 changes manually
-    $('#symptoms').on('change', function () {
-        const currentVals = $(this).val() || [];
-        $('.chip').each(function () {
-            const val = $(this).data('val');
-            if (currentVals.includes(val)) {
-                $(this).addClass('active');
+    // Search functionality
+    $('#symptomSearch').on('input', function () {
+        const query = $(this).val().toLowerCase();
+        $('.symptom-item').each(function () {
+            const searchText = $(this).data('search').toLowerCase();
+            if (searchText.includes(query)) {
+                $(this).show();
             } else {
-                $(this).removeClass('active');
+                $(this).hide();
             }
         });
     });
+
+    // Handle Checkbox Changes & Update Display
+    function updateSelectedSymptoms() {
+        const $container = $('#selectedSymptomsDisplay');
+        const selected = [];
+
+        $('input[name="symptoms_check"]:checked').each(function () {
+            const val = $(this).val();
+            const labelTh = $(this).closest('.symptom-item').find('.th').text();
+            selected.push({ id: val, text: labelTh });
+        });
+
+        if (selected.length === 0) {
+            $container.html('<span class="placeholder-text">ยังไม่ได้เลือกอาการ (เลือกได้จากแถบด้านซ้าย)</span>');
+        } else {
+            $container.empty();
+            selected.forEach(item => {
+                const $tag = $(`
+                    <div class="symptom-tag" data-val="${item.id}">
+                        <span>${item.text}</span>
+                        <span class="tag-remove">✕</span>
+                    </div>
+                `);
+                $container.append($tag);
+            });
+        }
+    }
+
+    $(document).on('change', 'input[name="symptoms_check"]', function () {
+        updateSelectedSymptoms();
+    });
+
+    // Remove via Tag
+    $(document).on('click', '.tag-remove', function () {
+        const val = $(this).parent().data('val');
+        $(`input[name="symptoms_check"][value="${val}"]`).prop('checked', false).trigger('change');
+    });
+
+    // --- Prediction Logic ---
 
     let lastScore = 0;
 
@@ -48,9 +72,8 @@ $(document).ready(function () {
         function update(currentTime) {
             const elapsed = currentTime - startTime;
             const progress = Math.min(elapsed / duration, 1);
-            // Ease out cubic
             const ease = 1 - Math.pow(1 - progress, 3);
-            const current = (start + (target - start) * ease).toFixed(2);
+            const current = (start + (target - start) * ease).toFixed(1);
             $el.text(current + '%');
 
             if (progress < 1) {
@@ -64,9 +87,10 @@ $(document).ready(function () {
 
     function updateGauge(percent, color) {
         const $circle = $('.gauge-fill');
-        const radius = $circle.attr('r');
-        const circumference = 2 * Math.PI * radius;
+        const r = $circle.attr('r');
+        const circumference = 2 * Math.PI * r;
 
+        // Ensure dasharray is set
         $circle.css({
             'stroke-dasharray': circumference,
             'stroke': color
@@ -80,7 +104,11 @@ $(document).ready(function () {
         e.preventDefault();
 
         const group = $('#animalGroup').val();
-        const symptoms = $('#symptoms').val();
+        const symptoms = [];
+        $('input[name="symptoms_check"]:checked').each(function () {
+            symptoms.push($(this).val());
+        });
+
         const $btn = $('#submitBtn');
         const $resultArea = $('#resultArea');
 
@@ -89,13 +117,14 @@ $(document).ready(function () {
             return;
         }
 
+        if (symptoms.length === 0) {
+            alert("กรุณาเลือกอาการอย่างน้อย 1 อย่าง");
+            return;
+        }
+
         $btn.addClass('loading-pulse').prop('disabled', true).text('⏳ กำลังประมวลผล...');
 
-        // Don't fade out if already visible, just smooth transition
         const isFirstTime = $resultArea.is(':hidden');
-        if (isFirstTime) {
-            $resultArea.hide();
-        }
 
         $.ajax({
             url: '/predict',
@@ -109,10 +138,10 @@ $(document).ready(function () {
                 let color = '#10b981'; // Green
                 let statusText = '✅ ความเสี่ยงต่ำ (Normal)';
 
-                if (score >= 75) {
+                if (score >= 80) {
                     color = '#ef4444'; // Red
                     statusText = '🚨 วิกฤต (Critical Risk)';
-                } else if (score >= 40) {
+                } else if (score >= 65) {
                     color = '#f59e0b'; // Amber
                     statusText = '🟠 เฝ้าระวัง (Warning)';
                 }
@@ -133,7 +162,8 @@ $(document).ready(function () {
 
                     $btn.removeClass('loading-pulse').prop('disabled', false).text('🔮 เริ่มการทำนายความเสี่ยง');
 
-                    if (isFirstTime && $(window).width() < 768) {
+                    // If mobile, scroll to result
+                    if (isFirstTime && $(window).width() < 1024) {
                         $('html, body').animate({
                             scrollTop: $resultArea.offset().top - 50
                         }, 500);

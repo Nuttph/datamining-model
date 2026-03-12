@@ -14,73 +14,95 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="main-card">
-            <!-- simplified header card with subtitle -->
-            <h1>🐾 Animal Risk AI</h1>
-            <p class="subtitle">ระบบวินิจฉัยความเสี่ยงสุขภาพสัตว์ด้วยปัญญาประดิษฐ์</p>
-
-            <form id="riskForm">
-                <div class="mb-4">
-                    <label class="form-label">
-                        <span class="step-num">1</span>
-                        เลือกชนิดสัตว์
-                    </label>
-                    <select id="animalGroup" class="form-select search-select" required>
-                        <option value="">--- ค้นหาหรือเลือกชนิดสัตว์ ---</option>
-                        {% for group_key, group_val in animal_data.items() %}
-                        <optgroup label="{{ group_val.th }}">
-                            {% for species in group_val.members_th %}
-                            <option value="{{ species }}">{{ species }}</option>
-                            {% endfor %}
-                        </optgroup>
-                        {% endfor %}
-                    </select>
-                </div>
-
-                <div class="mb-4" style="margin-top: 2rem;">
-                    <label class="form-label">
-                        <span class="step-num">2</span>
-                        ระบุอาการที่พบ
-                    </label>
-                    <select id="symptoms" class="form-select search-select" multiple="multiple">
-                        {% for key, val in symptom_data.items() %}
-                        <option value="{{ key }}">{{ val }} ({{ key }})</option>
-                        {% endfor %}
-                    </select>
-                    <div class="common-chips">
-                        <div class="chip" data-val="fever">ไข้ (fever)</div>
-                        <div class="chip" data-val="diarrhea">ท้องเสีย (diarrhea)</div>
-                        <div class="chip" data-val="vomiting">อาเจียน (vomiting)</div>
-                        <div class="chip" data-val="lethargy">ซึมเหนื่อย (lethargy)</div>
-                        <div class="chip" data-val="anorexia">เบื่ออาหาร (anorexia)</div>
-                    </div>
-                    <div class="hint-text">
-                        💡 ทิป: คุณสามารถเลือกหลายอาการเพื่อการทำนายที่แม่นยำขึ้น
-                    </div>
-                </div>
-
-                <button type="submit" class="btn-predict" id="submitBtn">
-                    🔮 เริ่มการทำนายความเสี่ยง
-                </button>
-            </form>
-
-            <div id="resultArea" style="display: none;">
-                <div class="gauge-container">
-                    <svg class="gauge" viewBox="0 0 120 120">
-                        <circle class="gauge-bg" cx="60" cy="60" r="54"></circle>
-                        <circle class="gauge-fill" cx="60" cy="60" r="54"></circle>
-                    </svg>
-                    <div class="gauge-value" id="riskGauge">0%</div>
-                </div>
-                <div id="riskText" class="risk-text">กำลังประมวลผล...</div>
-                <div class="sub-info" id="analysisDetails"></div>
-
-                <div class="disclaimer">
-                    * ผลลัพธ์นี้เป็นเพียงการวินิจฉัยเบื้องต้นโดย AI โปรดปรึกษาสัตวแพทย์หากสัตว์มีอาการรุนแรง
+    <div class="app-wrapper">
+        <!-- Sidebar: Symptoms Selection -->
+        <aside class="symptoms-sidebar">
+            <div class="sidebar-header">
+                <h3>🩺 อาการที่พบ</h3>
+                <div class="search-box">
+                    <input type="text" id="symptomSearch" placeholder="ค้นหาอาการ...">
+                    <i class="search-icon">🔍</i>
                 </div>
             </div>
-        </div>
+            <div class="symptoms-list-wrapper">
+                <div id="symptomsList" class="symptoms-list">
+                    {% for key, val in symptom_data.items() %}
+                    <label class="symptom-item" data-search="{{ val }} {{ key }}">
+                        <input type="checkbox" name="symptoms_check" value="{{ key }}" class="symptom-checkbox">
+                        <span class="checkbox-custom"></span>
+                        <span class="symptom-label">
+                            <span class="th">{{ val }}</span>
+                            <span class="en">{{ key }}</span>
+                        </span>
+                    </label>
+                    {% endfor %}
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="main-card">
+                <h1>🐾 Animal Risk AI</h1>
+                <p class="subtitle">ระบบวินิจฉัยความเสี่ยงสุขภาพสัตว์ด้วยปัญญาประดิษฐ์</p>
+
+                <form id="riskForm">
+                    <div class="form-section">
+                        <label class="form-label">
+                            <span class="step-num">1</span>
+                            เลือกชนิดสัตว์
+                        </label>
+                        <select id="animalGroup" class="form-select search-select" required>
+                            <option value="">--- ค้นหาหรือเลือกชนิดสัตว์ ---</option>
+                            {% for group_key, group_val in animal_data.items() %}
+                            <optgroup label="{{ group_val.th }}">
+                                {% for species in group_val.members_th %}
+                                <option value="{{ species }}">{{ species }}</option>
+                                {% endfor %}
+                            </optgroup>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="form-section">
+                        <label class="form-label">
+                            <span class="step-num">2</span>
+                            อาการที่เลือกแล้ว
+                        </label>
+                        <div id="selectedSymptomsDisplay" class="selected-symptoms-container">
+                            <span class="placeholder-text">ยังไม่ได้เลือกอาการ (เลือกได้จากแถบด้านซ้าย)</span>
+                        </div>
+                    </div>
+
+                    <div class="predict-section">
+                        <button type="submit" class="btn-predict" id="submitBtn">
+                            🔮 เริ่มการทำนายความเสี่ยง
+                        </button>
+                    </div>
+                </form>
+
+                <div id="resultArea" style="display: none;">
+                    <div class="result-grid">
+                        <div class="gauge-section">
+                            <div class="gauge-container">
+                                <svg class="gauge" viewBox="0 0 120 120">
+                                    <circle class="gauge-bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="gauge-fill" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="gauge-value" id="riskGauge">0%</div>
+                            </div>
+                        </div>
+                        <div class="result-info">
+                            <div id="riskText" class="risk-text">กำลังประมวลผล...</div>
+                            <div class="sub-info" id="analysisDetails"></div>
+                            <div class="disclaimer">
+                                * ผลลัพธ์นี้เป็นเพียงการวินิจฉัยเบื้องต้นโดย AI โปรดปรึกษาสัตวแพทย์หากสัตว์มีอาการรุนแรง
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
     </div>
 
     <!-- Scripts -->
